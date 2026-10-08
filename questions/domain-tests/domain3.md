@@ -1,90 +1,48 @@
-# Domain 3 — Project Selection Methods Test
-This test includes all questions tagged with **#domain3-selection-methods**.
+# Domain 3 — Selection Methods
+
+## Q1
+**Question:** A restaurant supply store is deciding whether to expand its delivery fleet. What project selection method applies?  
+**Answer:** Competitive necessity  
+**Tags:** #must-know #domain3-selection-methods #scenario
+
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q20
-**Question:** Which project selection method compares the present value of cash inflows and outflows?  
-**Tags:** #domain3-selection-methods #must-know
+## Q9
+**Question:** Which of the following is a scoring model?  
+**Answer:** Weighted scoring model  
+**Tags:** #high-yield #domain3-selection-methods #definition
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q21
-**Question:** Which project selection method calculates how long it takes to recover the initial investment?  
-**Tags:** #domain3-selection-methods #high-yield
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q22
-**Question:** Which project selection method uses a scoring model to evaluate multiple criteria?  
-**Tags:** #domain3-selection-methods #medium-priority
+## Q10
+**Question:** A company is deciding between two projects. Which selection method applies?  
+**Answer:** Opportunity cost  
+**Tags:** #must-know #domain3-selection-methods #scenario
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q23
-**Question:** Which project selection method evaluates the profitability of an investment by calculating a percentage return?  
-**Tags:** #domain3-selection-methods #high-yield
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q24
-**Question:** Which project selection method is best for comparing mutually exclusive projects?  
-**Tags:** #domain3-selection-methods #must-know
+## Q49
+**Question:** A company is deciding whether to upgrade its outdated security system. If they do not upgrade, they risk failing compliance audits. Which project selection method applies?  
+**Answer:** Operating necessity  
+**Tags:** #must-know #domain3-selection-methods #scenario #definition
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q25
-**Question:** Which project selection method is considered non-numeric?  
-**Tags:** #domain3-selection-methods #medium-priority
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q26
-**Question:** Which project selection method uses weighted criteria to determine the best project?  
-**Tags:** #domain3-selection-methods #medium-priority
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q27
-**Question:** Which project selection method focuses on strategic alignment rather than financial return?  
-**Tags:** #domain3-selection-methods #medium-priority
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
+ 
