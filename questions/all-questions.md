@@ -59,3 +59,31 @@
 ## Q15
 **Question:** A project to build a new city library is being planned using federal grant money. The library director, grant administrators, and city planners disagree on some points of the building design. Some stakeholders want to dedicate more community meeting space, while others want more shelves to increase the number of books in the library’s collection. Which triple constraint is being debated?  
 **Tags:** #must-know #domain1-project-concepts #scenario
+
+## Q16
+**Question:** Which of the following documents would be created first on a given project?  
+**Tags:** #must-know #domain2-project-life-cycle #definition
+
+## Q17
+**Question:** A project with moderately clear project outcomes and some volatility would use which project management method?  
+**Tags:** #high-yield #domain4-methods #scenario
+
+## Q18
+**Question:** A construction project to build a 20-story office building, where 90% of the space is under contract to various clients before the project begins would be which of the following?  
+**Tags:** #must-know #domain4-methods #scenario
+
+## Q19
+**Question:** Why does a project manager use a resource histogram in the planning stage? Choose two.  
+**Tags:** #high-yield #domain6-time-management #definition
+
+## Q20
+**Question:** Given the preceding Work Breakdown Structure for a team to prepare for a Fall soccer tournament, which of the following items is not in alignment with the 8/80 rule?  
+**Tags:** #must-know #domain5-planning #scenario #wbs
+
+## Q21
+**Question:** Given the preceding Work Breakdown Structure for a team to prepare for a Fall soccer tournament, which of the following items would make sense to add as WBS ID 1.3?  
+**Tags:** #high-yield #domain5-planning #definition #wbs
+
+## Q23
+**Question:** During the construction of new tennis courts, some old pipes are exposed. The facilities crews are worried that the pipes could break and shoot water under the new courts, resulting in a sinkhole in the middle of the court. There is no money in the budget to replace the pipes this year, so they ask the landscapers to place several large boulders between the pipe and the tennis court. What type of risk response is this?  
+**Tags:** #must-know #domain7-risk-management #definition #scenario
