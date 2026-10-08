@@ -87,3 +87,83 @@
 ## Q23
 **Question:** During the construction of new tennis courts, some old pipes are exposed. The facilities crews are worried that the pipes could break and shoot water under the new courts, resulting in a sinkhole in the middle of the court. There is no money in the budget to replace the pipes this year, so they ask the landscapers to place several large boulders between the pipe and the tennis court. What type of risk response is this?  
 **Tags:** #must-know #domain7-risk-management #definition #scenario
+
+## Q24
+**Question:** The planning team for new student orientation is preparing for this year’s group of students. They have all the information about last year’s project, which successfully onboarded 1,000 students. This year’s incoming class is 50% larger. What type of estimation method would be used to determine the costs and resources needed for this year’s orientation?  
+**Tags:** #must-know #domain5-planning #estimation #math
+
+## Q25
+**Question:** An architect is asked by a small city to give an estimate for a new office building, similar to one he planned in a nearby city. The city council does not have a lot of money to pay for full blueprints; they only want a ballpark figure as they are preparing next year’s budget. What type of method is used to determine the project costs?  
+**Tags:** #high-yield #domain5-planning #estimation #definition
+
+## Q26
+**Question:** A t-shirt company is planning a project to revamp the company’s business model. They are switching from custom printing to a subscription model where customers join a shirt of the month club. Since this is a radical shift for them, they have to rely on individuals who will be working on the project to estimate their own task costs. What cost estimation technique are they using?  
+**Tags:** #must-know #domain5-planning #estimation #scenario
+
+## Q27
+**Question:** An experienced contractor is giving a customer a bid for replacing the siding on their house. What estimation technique will be used to determine how long the project will take?  
+**Tags:** #must-know #domain5-planning #estimation #definition
+
+## Q28
+**Question:** The facilities department of a small school district is going to build some unique set pieces to be used in the high school musical. The facilities team lead thinks it shouldn’t be a big deal, although they haven’t previously built anything exactly like what is required. The director provides an estimate of the likely duration, with a warning that it could take up to two weeks longer if they don’t have all the tools and materials they will need. The principal suggests that it’s possible they can salvage some materials from another demolition project they are currently doing in order to complete the project sooner. What type of duration estimate is this?  
+**Tags:** #high-yield #domain6-time-management #scenario #math
+
+## Q29
+**Question:** Over the summer, the facilities department of a school district is going to repaint all the classrooms in the high school. The director estimates that each classroom will take 4 hours to paint. There are 80 classrooms in the building. How many weeks will the painting take if only one painter is available for the project?  
+**Tags:** #must-know #domain6-time-management #math #scenario
+
+## Q30
+**Question:** The parks department is putting in new baseball fields. The director asks for an estimate from the contractor for the project length, in order to determine whether they will need to cancel or postpone the upcoming baseball season. The contractor explains that it all depends on the weather. Most months there are 5 days of rain where they can’t work. The least amount it has ever rained in the last 10 years was 1 day. Weather forecasts show that there could be as many as 12 days of significant rain. Using a triangular three-point estimate, how many bad weather days will the baseball field project need built into the schedule?  
+**Tags:** #must-know #domain6-time-management #math #three-point-estimate #scenario
+
+## Q31
+**Question:** A project to replace the signals at several train crossings is causing rush hour problems. The sponsor offers a bonus for the contractors to complete the project early. In order to meet the accelerated schedule, the project manager authorizes bringing in extra workers from a lower priority project and allowing unlimited but optional overtime to the team. What schedule compression technique is being used?  
+**Tags:** #must-know #domain6-time-management #definition #scenario
+
+## Q32
+**Question:** Due to a defect in some of the raw materials purchased for redoing the sprinklers for a homeowner’s association, the sponsor is unhappy. The parts that have already been installed have been checked and repaired. What project management activity is important at this point to prevent continued problems?  
+**Tags:** #high-yield #domain7-quality-management #definition
+
+## Q33
+**Question:** If a CPI calculation comes out to .9, what does that mean for the project?  
+**Tags:** #must-know #domain7-earned-value #math #definition
+
+## Q34
+**Question:** If a project manager calculates an SPI of 1.2 for a project that was originally planned to take 3 months, how long is it probably going to take now?  
+**Tags:** #must-know #domain7-earned-value #math #definition
+
+## Q35
+**Question:** As part of a lessons learned review, the project manager is putting together a list of survey questions for team members to fill out. Which of the following questions needs to be rewritten before sending out the finalized survey?  
+**Tags:** #nice-to-know #domain8-stakeholders-communications #lessons-learned
+
+## Q36
+**Question:** A painter tells the client that their fence should take about 5 days to paint, including fixing any major holes, priming, and two coats of paint. The best-case scenario, if there is very little repair work to complete, is that the fence can be completed in 3 days. If the weather is bad or there is a lot of patching to do, it may take as long as 10 days. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+
+## Q37
+**Question:** A company that refurbishes wooden decks is putting together an estimate to sand and stain the outside seating area of a restaurant. The crew members who usually do the sanding estimate that it will take them 6 days to prep the deck before the staining can start. There is another project that they are working on currently, which, if not completed, will mean a less experienced crew may have to do the work. The less experienced crew usually takes twice as long as the experienced crew takes. The experienced crew just received a new sander to test out, which is supposed to take half the time they usually take. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+
+## Q38
+**Question:** An auto detailer is taking on a new contract to work with a company that auctions off used cars. Each month, 100 cars will arrive from a variety of locations and be added to the auction website. The cars must be vacuumed, washed, and waxed before their pictures are taken. The crew believes they can commit to about 10 cars per day. If the cars are in great shape, with only a few scratches, they can do 20 cars in a day. If there is a lot of dirt and damage, they may be able to complete as few as 4 cars per day. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+
+## Q39
+**Question:** A toy manufacturer is sending out their holiday catalog to retailers. Along with the catalog itself, the envelope contains a customized letter with a breakdown of what toys the retailer purchased from them last year, a small sample toy, and a gift card. On average, it takes about 10 minutes to generate the letter, stuff the envelope, and handwrite the address. There are 480 retailers who purchased toys last year, and the CEO wants all the catalogs mailed within a week’s time. How many employees will be needed to stuff envelopes?  
+**Tags:** #must-know #domain6-time-management #math #scenario
+
+## Q40
+**Question:** A reception hall purchased new folding chairs in advance of a large number of weddings they have planned over the next few months. When the boxes arrived, the facilities manager was disappointed to find out that the chairs were not assembled as he had thought they would be. The packaging asserts that each chair can be assembled in 15 minutes. There are three days to get ready for the next wedding, and asking around, he finds that he has only one person available to assemble chairs on the first day, 4 people can help on the second day, and 3 people on the final day before the decorators start arriving and the chairs need to be in place. How many chairs can be assembled in those three days?  
+**Tags:** #must-know #domain6-time-management #math #scenario
+
+## Q41
+**Question:** A city baseball/softball complex is putting in new bleachers in preparation for a minor league exhibition tournament. Each bench takes approximately 30 minutes for one person to install and inspect to ensure it is safe. There are 8 diamonds in the complex, and each diamond has 50 benches to install. How many weeks ahead do the 5 available volunteers need to start installing the seating before the first game in order to be done in time for the tournament to start?  
+**Tags:** #must-know #domain6-time-management #math #scenario
+
+## Q42
+**Question:** The state science fair competition has one team per school from 300 elementary schools, each with a research project that needs to be judged. Teams have 10 minutes to present their findings, followed by 10 minutes to answer questions asked by the two judges randomly assigned to them. Both judges are present together during the presentation and Q&A session. There are 40 judges available in the large conference room where all the exhibits are set up. The competition is scheduled to take two days. Will this be enough time to judge all the teams’ research projects?  
+**Tags:** #must-know #domain6-time-management #scenario #math
+
+## Q42 (Playground Earned Value)
+**Question:** An elementary school principal is working with a contractor to get a new playground installed during summer break. All the required equipment and parts were purchased and delivered on budget before the project started. The labor estimate is $3000. During their weekly status report meeting, the contractor gives the principal the following values from their project tracking software: Earned Value = $1200, Planned Value = $1800, Actual Cost = $1100. What is the project Cost Variance? What is the project's Cost Performance Index? What is the project's Estimate at Completion? What is the project's Estimate to Complete? What is the project's To Complete Performance Index? What is the project Schedule Variance? What is the project Schedule Performance Index? What is the project Percent Complete Index?  
+**Tags:** #must-know #domain7-earned-value #math #scenario
