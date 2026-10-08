@@ -1,4 +1,4 @@
-# C722 Tag Syststem
+# C722 Tag System
 
 This file defines all tags used across the repository, including concepts, flashcards, and questions.  
 Tags help with filtering, progress tracking, priority review, and building custom tests.
