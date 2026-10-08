@@ -290,65 +290,288 @@ D. Deterministic estimate
 ---
 
 ## Q28
-**Question:** The facilities department of a small school district is going to build some unique set pieces to be used in the high school musical. The facilities team lead thinks it shouldn’t be a big deal, although they haven’t previously built anything exactly like what is required. The director provides an estimate of the likely duration, with a warning that it could take up to two weeks longer if they don’t have all the tools and materials they will need. The principal suggests that it’s possible they can salvage some materials from another demolition project they are currently doing in order to complete the project sooner. What type of duration estimate is this?  
-**Tags:** #high-yield #domain6-time-management #scenario #math
+**Question:** Over the summer, the facilities department of a school district is going to repaint all the classrooms in the high school. The director estimates that each classroom will take 4 hours to paint. There are 80 classrooms in the building. How many weeks will the painting take if only one painter is available for the project?  
+A. 2  
+B. 4  
+C. 8  
+D. 20  
+**Answer:** C — 80 classrooms × 4 hours = 320 hours. At 40 hours/week, the project will take 8 weeks.  
+**Tags:** #must-know #domain6-time-management #math #scenario  
+
+---
 
 ## Q29
-**Question:** Over the summer, the facilities department of a school district is going to repaint all the classrooms in the high school. The director estimates that each classroom will take 4 hours to paint. There are 80 classrooms in the building. How many weeks will the painting take if only one painter is available for the project?  
-**Tags:** #must-know #domain6-time-management #math #scenario
+**Question:** The parks department is putting in new baseball fields. The director asks for an estimate from the contractor for the project length, in order to determine whether they will need to cancel or postpone the upcoming baseball season. The contractor explains that it all depends on the weather. Most months there are 5 days of rain where they can’t work. The least amount it has ever rained in the last 10 years was 1 day. Weather forecasts show that there could be as many as 12 days of significant rain. Using a triangular three-point estimate, how many bad weather days will the baseball field project need built into the schedule?  
+A. 4.5 days  
+B. 5 days  
+C. 5.5 days  
+D. 6 days  
+**Answer:** D — Triangular estimate = (1 + 5 + 12) ÷ 3 = 6 days.  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math  
+
+---
 
 ## Q30
-**Question:** The parks department is putting in new baseball fields. The director asks for an estimate from the contractor for the project length, in order to determine whether they will need to cancel or postpone the upcoming baseball season. The contractor explains that it all depends on the weather. Most months there are 5 days of rain where they can’t work. The least amount it has ever rained in the last 10 years was 1 day. Weather forecasts show that there could be as many as 12 days of significant rain. Using a triangular three-point estimate, how many bad weather days will the baseball field project need built into the schedule?  
-**Tags:** #must-know #domain6-time-management #math #three-point-estimate #scenario
+**Question:** A project to replace the signals at several train crossings is causing rush hour problems. The sponsor offers a bonus for the contractors to complete the project early. In order to meet the accelerated schedule, the project manager authorizes bringing in extra workers from a lower priority project and allowing unlimited but optional overtime to the team. What schedule compression technique is being used?  
+A. Crashing  
+B. Floating  
+C. Resource leveling  
+D. Fast-tracking  
+**Answer:** A — Crashing adds resources and overtime to shorten the schedule.  
+**Tags:** #must-know #domain6-time-management #schedule-compression #scenario  
+
+---
 
 ## Q31
-**Question:** A project to replace the signals at several train crossings is causing rush hour problems. The sponsor offers a bonus for the contractors to complete the project early. In order to meet the accelerated schedule, the project manager authorizes bringing in extra workers from a lower priority project and allowing unlimited but optional overtime to the team. What schedule compression technique is being used?  
-**Tags:** #must-know #domain6-time-management #definition #scenario
+**Question:** Due to a defect in some of the raw materials purchased for redoing the sprinklers for a homeowner’s association, the sponsor is unhappy. The parts that have already been installed have been checked and repaired. What project management activity is important at this point to prevent continued problems?  
+A. Quality audit  
+B. Quality control  
+C. Change management  
+D. Continuous improvement  
+**Answer:** B — Quality control involves inspecting, testing, and verifying that deliverables meet requirements. Since defects were found and repaired, QC is the correct activity to prevent further issues.  
+**Tags:** #must-know #domain7-quality-management #scenario  
+
+---
 
 ## Q32
-**Question:** Due to a defect in some of the raw materials purchased for redoing the sprinklers for a homeowner’s association, the sponsor is unhappy. The parts that have already been installed have been checked and repaired. What project management activity is important at this point to prevent continued problems?  
-**Tags:** #high-yield #domain7-quality-management #definition
+**Question:** If a CPI calculation comes out to .9, what does that mean for the project?  
+A. It will finish about 10% over budget  
+B. It will finish about 10% under budget  
+C. Project risks are both high probability and high severity  
+D. Crashing will be an effective method to accelerate project completion  
+**Answer:** A — A CPI of 0.9 means the project is getting only $0.90 of value for every $1.00 spent, indicating it is about 10% over budget.  
+**Tags:** #must-know #domain7-earned-value #math #definition  
+
+---
 
 ## Q33
-**Question:** If a CPI calculation comes out to .9, what does that mean for the project?  
-**Tags:** #must-know #domain7-earned-value #math #definition
+**Question:** If a project manager calculates an SPI of 1.2 for a project that was originally planned to take 3 months, how long is it probably going to take now?  
+A. About 10 weeks  
+B. Nothing changed – still 3 months  
+C. Almost 4 months  
+D. More information is needed  
+**Answer:** A — SPI of 1.2 means the project is progressing 20% faster than planned.  
+Planned duration: 3 months ≈ 12 weeks  
+Adjusted duration: 12 ÷ 1.2 = **10 weeks**  
+**Tags:** #must-know #domain7-earned-value #math #scenario  
+
+---
 
 ## Q34
-**Question:** If a project manager calculates an SPI of 1.2 for a project that was originally planned to take 3 months, how long is it probably going to take now?  
-**Tags:** #must-know #domain7-earned-value #math #definition
+**Question:** As part of a lessons learned review, the project manager is putting together a list of survey questions for team members to fill out. Which of the following questions needs to be rewritten before sending out the finalized survey?  
+A. How would you rate each of your team member’s performance on a scale of 1–10?  
+B. What changes to existing project planning templates would you recommend and why?  
+C. How effective were the estimation methods that were used to set project baselines?  
+D. How would you rate your own performance on a scale of 1–10?  
+**Answer:** A — Rating other team members introduces bias and confidentiality issues. Lessons learned surveys should focus on processes, not personal evaluations.  
+**Tags:** #must-know #domain8-stakeholders-communications #lessons-learned #scenario  
+
+---
 
 ## Q35
-**Question:** As part of a lessons learned review, the project manager is putting together a list of survey questions for team members to fill out. Which of the following questions needs to be rewritten before sending out the finalized survey?  
-**Tags:** #nice-to-know #domain8-stakeholders-communications #lessons-learned
+**Question:** A project manager is reviewing the schedule for a community playground installation. The critical path is identified as:  
+Excavate → Pour Concrete → Install Equipment → Safety Inspection.  
+The task “Paint Fence” is scheduled in parallel and has 6 days of float. If the paint shipment is delayed by 4 days, what is the impact on the project?  
+A. The project will be delayed by 4 days  
+B. The project will be delayed by 6 days  
+C. There is no impact on the project schedule  
+D. The critical path must be recalculated  
+**Answer:** C — The delay is within the 6‑day float, so the critical path is unaffected and the project finish date does not change.  
+**Tags:** #must-know #domain6-time-management #critical-path #float #scenario  
+
+---
 
 ## Q36
-**Question:** A painter tells the client that their fence should take about 5 days to paint, including fixing any major holes, priming, and two coats of paint. The best-case scenario, if there is very little repair work to complete, is that the fence can be completed in 3 days. If the weather is bad or there is a lot of patching to do, it may take as long as 10 days. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+**Question:** A Gantt chart for a school renovation project shows that “Install Lighting” cannot begin until “Electrical Rough‑In” is completed. However, “Paint Walls” can begin anytime after “Drywall Installation.” What type of dependency is shown between “Electrical Rough‑In” and “Install Lighting”?  
+A. Start-to-Start  
+B. Finish-to-Start  
+C. Finish-to-Finish  
+D. Start-to-Finish  
+**Answer:** B — Finish‑to‑Start is the most common dependency: one task must finish before the next can start.  
+**Tags:** #must-know #domain6-time-management #gantt-chart #dependencies #definition  
 
+---
 ## Q37
-**Question:** A company that refurbishes wooden decks is putting together an estimate to sand and stain the outside seating area of a restaurant. The crew members who usually do the sanding estimate that it will take them 6 days to prep the deck before the staining can start. There is another project that they are working on currently, which, if not completed, will mean a less experienced crew may have to do the work. The less experienced crew usually takes twice as long as the experienced crew takes. The experienced crew just received a new sander to test out, which is supposed to take half the time they usually take. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+**Question:** A project’s critical path has a total duration of 42 days. A non‑critical task with 8 days of float is shortened from 10 days to 6 days. What happens to the project’s finish date?  
+A. It finishes 4 days earlier  
+B. It finishes 2 days earlier  
+C. It does not change  
+D. It must be recalculated  
+**Answer:** C — Shortening a non‑critical task does not affect the critical path, so the project finish date remains the same.  
+**Tags:** #high-yield #domain6-time-management #critical-path #scenario  
+
+---
 
 ## Q38
-**Question:** An auto detailer is taking on a new contract to work with a company that auctions off used cars. Each month, 100 cars will arrive from a variety of locations and be added to the auction website. The cars must be vacuumed, washed, and waxed before their pictures are taken. The crew believes they can commit to about 10 cars per day. If the cars are in great shape, with only a few scratches, they can do 20 cars in a day. If there is a lot of dirt and damage, they may be able to complete as few as 4 cars per day. What is the triangular estimate of the project duration? What is the beta estimate of the project duration? What is the standard deviation of the project duration?  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario
+**Question:** A Gantt chart shows that “Foundation Work” and “Framing” are normally done sequentially. To shorten the schedule, the project manager decides to overlap the last 3 days of foundation work with the first 3 days of framing. What schedule compression technique is being used?  
+A. Crashing  
+B. Fast-tracking  
+C. Resource leveling  
+D. Critical chain buffering  
+**Answer:** B — Fast‑tracking overlaps tasks that were originally planned sequentially to reduce the schedule duration.  
+**Tags:** #must-know #domain6-time-management #schedule-compression #gantt-chart #scenario  
+
+---
 
 ## Q39
-**Question:** A toy manufacturer is sending out their holiday catalog to retailers. Along with the catalog itself, the envelope contains a customized letter with a breakdown of what toys the retailer purchased from them last year, a small sample toy, and a gift card. On average, it takes about 10 minutes to generate the letter, stuff the envelope, and handwrite the address. There are 480 retailers who purchased toys last year, and the CEO wants all the catalogs mailed within a week’s time. How many employees will be needed to stuff envelopes?  
-**Tags:** #must-know #domain6-time-management #math #scenario
+**Question:** A painter tells the client that their fence should take about 5 days to paint, including fixing any major holes, priming, and two coats of paint. The best-case scenario, if there is very little repair work to complete, is that the fence can be completed in 3 days. If the weather is bad or there is a lot of patching to do, it may take as long as 10 days.  
+
+**Triangular Estimate (O + M + P) / 3:**  
+(3 + 5 + 10) / 3 = **6 days**  
+
+**Beta Estimate (O + 4M + P) / 6:**  
+(3 + 4(5) + 10) / 6 = (3 + 20 + 10) / 6 = 33 / 6 = **5.5 days**  
+
+**Standard Deviation (P – O) / 6:**  
+(10 – 3) / 6 = **1.17 days**  
+
+**Answer:** Triangular = 6 days; Beta = 5.5 days; Standard deviation = 1.17 days.  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario  
+
+---
 
 ## Q40
-**Question:** A reception hall purchased new folding chairs in advance of a large number of weddings they have planned over the next few months. When the boxes arrived, the facilities manager was disappointed to find out that the chairs were not assembled as he had thought they would be. The packaging asserts that each chair can be assembled in 15 minutes. There are three days to get ready for the next wedding, and asking around, he finds that he has only one person available to assemble chairs on the first day, 4 people can help on the second day, and 3 people on the final day before the decorators start arriving and the chairs need to be in place. How many chairs can be assembled in those three days?  
-**Tags:** #must-know #domain6-time-management #math #scenario
+**Question:** A company that refurbishes wooden decks is putting together an estimate to sand and stain the outside seating area of a restaurant. The experienced crew estimates 6 days. A less experienced crew takes twice as long (12 days). A new sander may reduce the time to half (3 days).  
+
+**Triangular Estimate (O + M + P) / 3:**  
+(3 + 6 + 12) / 3 = **7 days**  
+
+**Beta Estimate (O + 4M + P) / 6:**  
+(3 + 4(6) + 12) / 6 = (3 + 24 + 12) / 6 = 39 / 6 = **6.5 days**  
+
+**Standard Deviation (P – O) / 6:**  
+(12 – 3) / 6 = **1.5 days**  
+
+**Answer:** Triangular = 7 days; Beta = 6.5 days; Standard deviation = 1.5 days.  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario  
+
+---
 
 ## Q41
-**Question:** A city baseball/softball complex is putting in new bleachers in preparation for a minor league exhibition tournament. Each bench takes approximately 30 minutes for one person to install and inspect to ensure it is safe. There are 8 diamonds in the complex, and each diamond has 50 benches to install. How many weeks ahead do the 5 available volunteers need to start installing the seating before the first game in order to be done in time for the tournament to start?  
-**Tags:** #must-know #domain6-time-management #math #scenario
+**Question:** An auto detailer is taking on a new contract to prep 100 cars each month.  
+- Most-likely rate: 10 cars/day → 10 days  
+- Best-case rate: 20 cars/day → 5 days  
+- Worst-case rate: 4 cars/day → 25 days  
+
+**Triangular Estimate (O + M + P) / 3:**  
+(5 + 10 + 25) / 3 = **13.33 days**  
+
+**Beta Estimate (O + 4M + P) / 6:**  
+(5 + 4(10) + 25) / 6 = (5 + 40 + 25) / 6 = 70 / 6 = **11.67 days**  
+
+**Standard Deviation (P – O) / 6:**  
+(25 – 5) / 6 = **3.33 days**  
+
+**Answer:** Triangular = 13.33 days; Beta = 11.67 days; Standard deviation = 3.33 days.  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario  
+
+---
 
 ## Q42
-**Question:** The state science fair competition has one team per school from 300 elementary schools, each with a research project that needs to be judged. Teams have 10 minutes to present their findings, followed by 10 minutes to answer questions asked by the two judges randomly assigned to them. Both judges are present together during the presentation and Q&A session. There are 40 judges available in the large conference room where all the exhibits are set up. The competition is scheduled to take two days. Will this be enough time to judge all the teams’ research projects?  
-**Tags:** #must-know #domain6-time-management #scenario #math
+**Question:** A toy manufacturer is sending out their holiday catalog to retailers. Each envelope includes a customized letter, a sample toy, and a gift card. It takes 10 minutes to prepare each envelope. There are 480 retailers, and the CEO wants all catalogs mailed within one week. How many employees are needed?  
 
-## Q42 (Playground Earned Value)
-**Question:** An elementary school principal is working with a contractor to get a new playground installed during summer break. All the required equipment and parts were purchased and delivered on budget before the project started. The labor estimate is $3000. During their weekly status report meeting, the contractor gives the principal the following values from their project tracking software: Earned Value = $1200, Planned Value = $1800, Actual Cost = $1100. What is the project Cost Variance? What is the project's Cost Performance Index? What is the project's Estimate at Completion? What is the project's Estimate to Complete? What is the project's To Complete Performance Index? What is the project Schedule Variance? What is the project Schedule Performance Index? What is the project Percent Complete Index?  
-**Tags:** #must-know #domain7-earned-value #math #scenario
+**Calculations:**  
+60 minutes / 10 minutes per envelope = 6 envelopes per hour  
+6 envelopes/hour × 8 hours/day = 48 envelopes per person per day  
+480 envelopes / 5 workdays = 96 envelopes per day required  
+96 / 48 = **2 employees needed**  
+
+**Answer:** 2 employees  
+**Tags:** #must-know #domain6-time-management #math #scenario  
+
+---
+
+## Q43
+**Question:** A reception hall purchased new folding chairs, but they arrived unassembled. Each chair takes 15 minutes to assemble.  
+- Day 1: 1 worker  
+- Day 2: 4 workers  
+- Day 3: 3 workers  
+How many chairs can be assembled in three days?  
+
+**Calculations:**  
+60 minutes / 15 minutes per chair = 4 chairs/hour  
+4 chairs/hour × 8 hours/day = 32 chairs per person per day  
+
+Total chairs:  
+Day 1: 1 × 32 = 32  
+Day 2: 4 × 32 = 128  
+Day 3: 3 × 32 = 96  
+Total = 32 + 128 + 96 = **256 chairs**  
+
+**Answer:** 256 chairs  
+**Tags:** #must-know #domain6-time-management #math #scenario  
+
+---
+
+## Q44
+**Question:** A baseball/softball complex is installing new bleachers. Each bench takes 30 minutes to install. There are 8 diamonds with 50 benches each. Five volunteers are available. How many weeks ahead must they start?  
+
+**Calculations:**  
+60 minutes / 30 minutes = 2 benches/hour  
+2 benches/hour × 8 hours/day = 16 benches per person per day  
+5 volunteers × 16 = 80 benches/day  
+
+Total benches:  
+8 diamonds × 50 benches = 400 benches  
+400 / 80 = 5 workdays = **1 week**  
+
+**Answer:** 1 week  
+**Tags:** #must-know #domain6-time-management #math #scenario  
+
+---
+
+## Q45
+**Question:** The state science fair has 300 teams. Each team presents for 10 minutes and answers questions for 10 minutes (20 minutes total). There are 40 judges, and each judging team consists of 2 judges. The event lasts two days. Is this enough time?  
+
+**Calculations:**  
+60 minutes / 20 minutes = 3 teams judged per hour per judge team  
+40 judges / 2 = 20 judge teams  
+20 judge teams × 3 teams/hour = 60 teams/hour  
+
+300 teams / 60 teams/hour = 5 hours needed  
+Two days = 16 working hours available  
+
+**Answer:** Yes — only 5 hours are required, and 16 hours are available.  
+**Tags:** #must-know #domain6-time-management #math #scenario  
+
+---
+
+## Q46
+**Question:** A playground installation project has the following Earned Value data:  
+- Earned Value (EV) = $1200  
+- Planned Value (PV) = $1800  
+- Actual Cost (AC) = $1100  
+Labor estimate = $3000  
+
+Calculate all earned value metrics.  
+
+**Cost Variance (CV):**  
+EV – AC = 1200 – 1100 = **$100 (under budget)**  
+
+**Cost Performance Index (CPI):**  
+EV / AC = 1200 / 1100 = **1.09**  
+
+**Estimate at Completion (EAC):**  
+Budget / CPI = 3000 / 1.09 ≈ **$2750**  
+
+**Estimate to Complete (ETC):**  
+EAC – AC = 2750 – 1100 = **$1650**  
+
+**To Complete Performance Index (TCPI):**  
+(Budget – EV) / (Budget – AC) = (3000 – 1200) / (3000 – 1100)  
+1800 / 1900 = **0.95**  
+
+**Schedule Variance (SV):**  
+EV – PV = 1200 – 1800 = **–$600 (behind schedule)**  
+
+**Schedule Performance Index (SPI):**  
+EV / PV = 1200 / 1800 = **0.67**  
+
+**Percent Complete Index (PCI):**  
+EV / Budget = 1200 / 3000 = **0.40 (40% complete)**  
+
+**Answer:** CV = $100; CPI = 1.09; EAC = $2750; ETC = $1650; TCPI = 0.95; SV = –$600; SPI = 0.67; PCI = 40%.  
+**Tags:** #must-know #domain7-earned-value #math #scenario  
+
+---
+
