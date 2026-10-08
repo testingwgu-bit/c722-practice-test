@@ -47,3 +47,15 @@
 ## Q12
 **Question:** A project manager helps the sponsor produce a list of expected outcomes due at the end of each month of a year-long project. What is the list of items they produced called?  
 **Tags:** #high-yield #domain6-time-management #definition
+
+## Q13
+**Question:** Which of the following is the clearest baseline scope statement?  
+**Tags:** #must-know #domain5-planning #definition
+
+## Q14
+**Question:** Why do some projects utilize iterative work?  
+**Tags:** #high-yield #domain4-methods #definition
+
+## Q15
+**Question:** A project to build a new city library is being planned using federal grant money. The library director, grant administrators, and city planners disagree on some points of the building design. Some stakeholders want to dedicate more community meeting space, while others want more shelves to increase the number of books in the library’s collection. Which triple constraint is being debated?  
+**Tags:** #must-know #domain1-project-concepts #scenario
