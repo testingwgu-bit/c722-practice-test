@@ -23,3 +23,15 @@
 ## Q6
 **Question:** Which of the following is a disadvantage of using a balanced matrix organizational structure?  
 **Tags:** #must-know #domain1-project-concepts #scenario
+
+## Q7
+**Question:** In what situation would a functional organizational structure be used for a project?  
+**Tags:** #must-know #domain1-project-concepts #scenario
+
+## Q8
+**Question:** The manager of a manufacturing facility gets a bonus based on how quickly her team’s completed projects break even. Which numeric selection model will she prefer to use to select projects?  
+**Tags:** #must-know #domain3-selection-methods #math #scenario
+
+## Q9
+**Question:** What is the major difference between a Non-Weighted and Weighted Factor Scoring Model?  
+**Tags:** #high-yield #domain3-selection-methods #definition
