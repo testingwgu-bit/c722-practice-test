@@ -35,3 +35,15 @@
 ## Q9
 **Question:** What is the major difference between a Non-Weighted and Weighted Factor Scoring Model?  
 **Tags:** #high-yield #domain3-selection-methods #definition
+
+## Q10
+**Question:** A non-profit that helps low-income families do their taxes and manage their budgets needs new tax preparation software, since the contract for the software they used to use has expired. The director initiates a project to select the new software and train volunteers on its use. What project selection principle is apparent in this scenario?  
+**Tags:** #must-know #domain3-selection-methods #scenario
+
+## Q11
+**Question:** What is the primary document that is generated during the defining phase?  
+**Tags:** #must-know #domain2-project-life-cycle #definition
+
+## Q12
+**Question:** A project manager helps the sponsor produce a list of expected outcomes due at the end of each month of a year-long project. What is the list of items they produced called?  
+**Tags:** #high-yield #domain6-time-management #definition
