@@ -55,7 +55,7 @@ B. AXELOS LTD., Project Management Body of Knowledge (PMBOK), and International 
 C. Project Management Foundation (PMF), Association for Project Management (APM), and International Project Management Association (IPMA)  
 D. AXELOS LTD., Project Management Institute (PMI), and International Project Management Association (IPMA)  
 **Answer:** A — APM, PMI, and IPMA are the three globally recognized project management organizations.  
-**Tags:** #nice-to-know #domain1-project-concepts #definition
+**Tags:** #high-yield #domain1-project-concepts #definition
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -174,7 +174,7 @@ B. Vendor Closing Checklist
 C. Feasibility Study  
 D. Requirements Traceability Matrix  
 **Answer:** A — Deliverables represent the expected outputs tied to specific time periods.  
-**Tags:** #high-yield #domain6-time-management #definition
+**Tags:** #high-yield #domain5-planning #definition
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -206,7 +206,7 @@ B. The change request process requires too many approvals
 C. To reduce the amount of time spent in the planning phase  
 D. To allow the project team to terminate the project early if the company priorities change  
 **Answer:** A — Iterative work allows later phases to evolve based on what is learned in earlier phases, which is the core purpose of iterative methods.  
-**Tags:** #high-yield #domain4-methods #definition
+**Tags:** #high-yield #domain4-methods #scenario
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -238,7 +238,7 @@ B. Resource Responsibility Matrix
 C. Resource Leveling Histogram  
 D. Earned Value Analysis  
 **Answer:** A — The Requirements Traceability Matrix is created early to define and track requirements from the start.  
-**Tags:** #must-know #domain2-project-life-cycle #definition
+**Tags:** #must-know #domain2-project-life-cycle #definition #planning-documents
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -254,7 +254,7 @@ B. Agile
 C. Waterfall  
 D. Traditional  
 **Answer:** A — Extreme project management is used when outcomes are somewhat clear but volatility and uncertainty are high.  
-**Tags:** #high-yield #domain4-methods #scenario
+**Tags:** #high-yield #domain4-methods #scenario #agile
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -270,7 +270,7 @@ B. High complexity, low uncertainty
 C. Low complexity, high uncertainty  
 D. Low complexity, low uncertainty  
 **Answer:** B — The project is complex due to size, but requirements are stable because most space is already contracted.  
-**Tags:** #must-know #domain4-methods #scenario
+**Tags:** #must-know #domain4-methods #scenario #agile
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -286,7 +286,7 @@ B. Identify tasks with slack on the critical path
 C. Analyze projected cost variances  
 D. Determine when new team members should be on-boarded  
 **Answer:** A & D — Resource histograms help PMs visualize workload distribution and identify when additional staffing is needed.  
-**Tags:** #high-yield #domain6-time-management #definition
+**Tags:** #high-yield #domain6-time-management #definition #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -302,7 +302,7 @@ B. Practice
 C. Summer practices  
 D. Hold final scrimmages  
 **Answer:** C — “Summer practices” spans weeks/months and violates the 8/80 rule, which requires work packages to be between 8 and 80 hours.  
-**Tags:** #must-know #domain5-planning #scenario #wbs
+**Tags:** #must-know #domain5-planning #scenario #wbs #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -334,7 +334,7 @@ B. Avoidance
 C. Mitigation  
 D. Acceptance  
 **Answer:** C — Mitigation reduces the likelihood or impact of the risk. Placing boulders is a physical action to lessen potential damage.  
-**Tags:** #must-know #domain5-planning #risk-management #scenario
+**Tags:** #must-know #domain5-planning #risk #scenario
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -346,7 +346,7 @@ D. Acceptance
 ## Q23
 **Question:** The planning team for new student orientation is preparing for this year’s group of students. They have all the information about last year’s project, which successfully onboarded 1,000 students. This year’s incoming class is 50% larger. What type of estimation method would be used to determine the costs and resources needed for this year’s orientation?  
 **Answer:** Parametric Estimating — Uses measurable relationships (e.g., cost per student × number of students).  
-**Tags:** #must-know #domain5-planning #estimation #math
+**Tags:** #must-know #domain5-planning #estimation #math #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -362,7 +362,7 @@ B. Top-down
 C. Bottom-up  
 D. Flexible  
 **Answer:** B — Top-down (Analogous) estimating uses a similar past project to quickly generate a rough cost estimate.  
-**Tags:** #high-yield #domain5-planning #estimation #definition
+**Tags:** #high-yield #domain5-planning #estimation #definition #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -378,7 +378,7 @@ B. Ratio
 C. Apportion  
 D. Bottom-up  
 **Answer:** D — Bottom-up estimating relies on individuals doing the work to estimate their own tasks.  
-**Tags:** #must-know #domain5-planning #estimation #scenario
+**Tags:** #must-know #domain5-planning #estimation #scenario #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -394,7 +394,7 @@ B. Three-point estimate
 C. Pessimistic estimate  
 D. Probabilistic estimate  
 **Answer:** A — One-point estimating uses a single expert judgment value, which fits an experienced contractor’s approach.  
-**Tags:** #must-know #domain6-time-management #estimation #definition
+**Tags:** #must-know #domain6-time-management #estimation #definition #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -410,7 +410,7 @@ B. Three-point estimate
 C. Optimistic estimate  
 D. Deterministic estimate  
 **Answer:** B — The scenario includes optimistic, pessimistic, and most-likely durations, which defines a three-point estimate. 
-**Tags:** #high-yield #domain6-time-management #three-point-estimate #scenario
+**Tags:** #high-yield #domain6-time-management #three-point-estimate #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -426,7 +426,7 @@ B. 4
 C. 8  
 D. 20  
 **Answer:** C — 80 classrooms × 4 hours = 320 hours. At 40 hours/week, the project will take 8 weeks.  
-**Tags:** #must-know #domain6-time-management #math #scenario  
+**Tags:** #must-know #domain6-time-management #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -442,7 +442,7 @@ B. 5 days
 C. 5.5 days  
 D. 6 days  
 **Answer:** D — Triangular estimate = (1 + 5 + 12) ÷ 3 = 6 days.  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -458,7 +458,7 @@ B. Floating
 C. Resource leveling  
 D. Fast-tracking  
 **Answer:** A — Crashing adds resources and overtime to shorten the schedule.  
-**Tags:** #must-know #domain6-time-management #schedule-compression #scenario  
+**Tags:** #must-know #domain6-time-management #schedule-compression #scenario #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -474,7 +474,7 @@ B. Quality control
 C. Change management  
 D. Continuous improvement  
 **Answer:** B — Quality control involves inspecting, testing, and verifying that deliverables meet requirements. Since defects were found and repaired, QC is the correct activity to prevent further issues.  
-**Tags:** #must-know #domain7-quality-management #scenario  
+**Tags:** #must-know #domain7-execute-monitor-close #scenario #quality
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -490,7 +490,7 @@ B. It will finish about 10% under budget
 C. Project risks are both high probability and high severity  
 D. Crashing will be an effective method to accelerate project completion  
 **Answer:** A — A CPI of 0.9 means the project is getting only $0.90 of value for every $1.00 spent, indicating it is about 10% over budget.  
-**Tags:** #must-know #domain7-earned-value #math #definition  
+**Tags:** #must-know #domain7-execute-monitor-close #math #definition #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -508,7 +508,7 @@ D. More information is needed
 **Answer:** A — SPI of 1.2 means the project is progressing 20% faster than planned.  
 Planned duration: 3 months ≈ 12 weeks  
 Adjusted duration: 12 ÷ 1.2 = **10 weeks**  
-**Tags:** #must-know #domain7-earned-value #math #scenario  
+**Tags:** #must-know #domain7-execute-monitor-close #math #scenario #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -524,7 +524,7 @@ B. What changes to existing project planning templates would you recommend and w
 C. How effective were the estimation methods that were used to set project baselines?  
 D. How would you rate your own performance on a scale of 1–10?  
 **Answer:** A — Rating other team members introduces bias and confidentiality issues. Lessons learned surveys should focus on processes, not personal evaluations.  
-**Tags:** #must-know #domain8-stakeholders-communications #lessons-learned #scenario  
+**Tags:** #must-know #domain7-execute-monitor-clos #lessons-learned #scenario #stakeholders
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -542,7 +542,7 @@ B. The project will be delayed by 6 days
 C. There is no impact on the project schedule  
 D. The critical path must be recalculated  
 **Answer:** C — The delay is within the 6‑day float, so the critical path is unaffected and the project finish date does not change.  
-**Tags:** #must-know #domain6-time-management #critical-path #float #scenario  
+**Tags:** #must-know #domain6-time-management #critical-path #float #scenario #schedule-analysis
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -558,7 +558,7 @@ B. Finish-to-Start
 C. Finish-to-Finish  
 D. Start-to-Finish  
 **Answer:** B — Finish‑to‑Start is the most common dependency: one task must finish before the next can start.  
-**Tags:** #must-know #domain6-time-management #gantt-chart #dependencies #definition  
+**Tags:** #must-know #domain6-time-management #gantt-chart #dependencies #definition #schedule-analysis
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -573,7 +573,7 @@ B. It finishes 2 days earlier
 C. It does not change  
 D. It must be recalculated  
 **Answer:** C — Shortening a non‑critical task does not affect the critical path, so the project finish date remains the same.  
-**Tags:** #high-yield #domain6-time-management #critical-path #scenario  
+**Tags:** #high-yield #domain6-time-management #critical-path #scenario #schedule-analysis
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -589,7 +589,7 @@ B. Fast-tracking
 C. Resource leveling  
 D. Critical chain buffering  
 **Answer:** B — Fast‑tracking overlaps tasks that were originally planned sequentially to reduce the schedule duration.  
-**Tags:** #must-know #domain6-time-management #schedule-compression #gantt-chart #scenario  
+**Tags:** #must-know #domain6-time-management #schedule-compression #gantt-chart #scenario #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -611,7 +611,7 @@ D. Critical chain buffering
 (10 – 3) / 6 = **1.17 days**  
 
 **Answer:** Triangular = 6 days; Beta = 5.5 days; Standard deviation = 1.17 days.  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -633,7 +633,7 @@ D. Critical chain buffering
 (12 – 3) / 6 = **1.5 days**  
 
 **Answer:** Triangular = 7 days; Beta = 6.5 days; Standard deviation = 1.5 days.  
-**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario  
+**Tags:** #must-know #domain6-time-management #three-point-estimate #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -704,7 +704,7 @@ Day 3: 3 × 32 = 96
 Total = 32 + 128 + 96 = **256 chairs**  
 
 **Answer:** 256 chairs  
-**Tags:** #must-know #domain6-time-management #math #scenario  
+**Tags:** #must-know #domain6-time-management #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -726,7 +726,7 @@ Total benches:
 400 / 80 = 5 workdays = **1 week**  
 
 **Answer:** 1 week  
-**Tags:** #must-know #domain6-time-management #math #scenario  
+**Tags:** #must-know #domain6-time-management #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -747,7 +747,7 @@ Total benches:
 Two days = 16 working hours available  
 
 **Answer:** Yes — only 5 hours are required, and 16 hours are available.  
-**Tags:** #must-know #domain6-time-management #math #scenario  
+**Tags:** #must-know #domain6-time-management #math #scenario #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -791,7 +791,7 @@ EV / PV = 1200 / 1800 = **0.67**
 EV / Budget = 1200 / 3000 = **0.40 (40% complete)**  
 
 **Answer:** CV = $100; CPI = 1.09; EAC = $2750; ETC = $1650; TCPI = 0.95; SV = –$600; SPI = 0.67; PCI = 40%.  
-**Tags:** #must-know #domain7-earned-value #math #scenario  
+**Tags:** #must-know #domain7-execute-monitor-close #math #scenario #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -807,7 +807,7 @@ B. Cost
 C. Time  
 D. Quality  
 **Answer:** A — Increasing scope forces changes to cost and time.  
-**Tags:** #must-know #domain1-project-concepts #triple-constraint #scenario  
+**Tags:** #must-know #domain1-project-concepts #triple-constraint #scenario #definition
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -823,7 +823,7 @@ B. Evaluate change
 C. Decision  
 D. Communicate change  
 **Answer:** D — The PM is informing stakeholders of the approved change.  
-**Tags:** #must-know #domain8-change-management #scenario  
+**Tags:** #must-know #domain7-execute-monitor-closet #scenario #stakeholders
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -839,7 +839,7 @@ B. Competitive necessity
 C. Operating necessity  
 D. Opportunity cost  
 **Answer:** C — The project is required to maintain operations and compliance.  
-**Tags:** #must-know #domain3-selection-methods #scenario  
+**Tags:** #must-know #domain3-selection-methods #scenario #definition
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -855,7 +855,7 @@ B. Projectized
 C. Matrix  
 D. Hybrid  
 **Answer:** C — Matrix structures have dual reporting lines.  
-**Tags:** #must-know #domain1-organizational-structures #definition 
+**Tags:** #must-know #domain1-project-concepts #definition 
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -871,7 +871,7 @@ B. Quality assurance
 C. Quality management  
 D. Continuous improvement  
 **Answer:** C — Quality management defines requirements and measurements.  
-**Tags:** #must-know #domain7-quality-management #definition  
+**Tags:** #must-know #domain7-execute-monitor-close #definition #quality
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -887,7 +887,7 @@ B. Qualitative/quantitative analysis
 C. Response planning  
 D. Monitoring  
 **Answer:** B — They are analyzing probability and impact.  
-**Tags:** #must-know #domain5-risk-management #definition  
+**Tags:** #must-know #domain5-planning #definition #risk
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -903,7 +903,7 @@ B. Fast-tracking
 C. Resource leveling  
 D. De-scoping  
 **Answer:** B — Fast-tracking overlaps tasks.  
-**Tags:** #must-know #domain6-schedule-compression #scenario  
+**Tags:** #must-know #domain6-time-management #scenario #schedule-compression #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -919,7 +919,7 @@ B. Resource smoothing
 C. Crashing  
 D. Leveling  
 **Answer:** C — Crashing adds resources to reduce duration.  
-**Tags:** #must-know #domain6-schedule-compression #scenario  
+**Tags:** #must-know ##domain6-time-management #scenario #schedule-compression #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -935,7 +935,7 @@ B. The project is over budget
 C. The project is ahead of schedule  
 D. The project is behind schedule  
 **Answer:** B — EV < AC means over budget.  
-**Tags:** #must-know #domain7-earned-value #math  
+**Tags:** #must-know #domain7-execute-monitor-close #math #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -951,7 +951,7 @@ B. The project is behind schedule
 C. The project is under budget  
 D. The project is over budget  
 **Answer:** B — SPI < 1 means behind schedule.  
-**Tags:** #must-know #domain7-earned-value #definition 
+**Tags:** #must-know #domain7-execute-monitor-close #definition #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -967,7 +967,7 @@ B. 6 days
 C. 7 days  
 D. 8 days  
 **Answer:** C — (2 + 4(5) + 11) / 6 = 33 / 6 = 5.5 ≈ 6 days (rounded to nearest whole number).  
-**Tags:** #must-know #domain6-time-management #beta-estimate #math  
+**Tags:** #must-know #domain6-time-management #beta-estimate #math #estimation
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -983,7 +983,7 @@ B. Transfer
 C. Mitigate  
 D. Accept  
 **Answer:** C — Mitigation reduces probability or impact.  
-**Tags:** #must-know #domain5-risk-management #scenario  
+**Tags:** #must-know #domain5-planning #scenario #risk
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -999,7 +999,7 @@ B. Transfer
 C. Mitigate  
 D. Accept  
 **Answer:** B — Insurance transfers risk.  
-**Tags:** #must-know #domain5-risk-management #definition  
+**Tags:** #must-know #domain5-planning #definition #risk
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1015,7 +1015,7 @@ B. Evaluate
 C. Decision  
 D. Communicate  
 **Answer:** B — The PM is evaluating the change.  
-**Tags:** #must-know #domain8-change-management #scenario  
+**Tags:** #must-know #domain7-execute-monitor-close #scenario #stakeholders
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1031,7 +1031,7 @@ B. Planning and executing
 C. Executing and closing  
 D. All phases  
 **Answer:** B — Planning and executing are iterative.  
-**Tags:** #must-know #domain1-project-life-cycle #definition 
+**Tags:** #must-know #domain2-project-life-cycle #definition 
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1047,7 +1047,7 @@ B. Improves communication
 C. Ensures accurate scope definition  
 D. Speeds up execution  
 **Answer:** C — WBS defines and structures scope.  
-**Tags:** #must-know #domain5-planning #wbs #definition  
+**Tags:** #must-know #domain5-planning #wbs #definition #tools-techniques 
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1063,7 +1063,7 @@ B. Finish-to-start
 C. Finish-to-finish  
 D. Start-to-finish  
 **Answer:** B — FS is the most common dependency.  
-**Tags:** #must-know #domain6-time-management #dependencies  
+**Tags:** #must-know #domain6-time-management #dependencies #schedule-analysis
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1079,7 +1079,7 @@ B. Slack
 C. Critical path  
 D. Lead time  
 **Answer:** C — The longest path is the critical path.  
-**Tags:** #must-know #domain6-critical-path #definition  
+**Tags:** #must-know #domain6-time-management #definition #critical-path
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1098,7 +1098,7 @@ B. Task B
 C. Both  
 D. Neither  
 **Answer:** B — The longest task determines the path.  
-**Tags:** #must-know #domain6-critical-path #scenario
+**Tags:** #must-know #domain6-time-management #scenario #critical-path
 
   - [ ] I know this
 - [ ] I need to review this again
@@ -1114,7 +1114,7 @@ B. PMO
 C. Steering committee  
 D. Functional manager  
 **Answer:** B — PMO aligns projects with strategy.  
-**Tags:** #must-know #domain1-pmo #definition
+**Tags:** #must-know #domain1-project-concepts #definition #stakeholders
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1130,7 +1130,7 @@ B. Ratio (parametric)
 C. Apportion  
 D. Top-down  
 **Answer:** D — Top-down uses past project experience.  
-**Tags:** #must-know #domain5-estimation #definition  
+**Tags:** #must-know #domain5-planning #definition #estimation #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1146,7 +1146,7 @@ B. Ratio (parametric)
 C. Apportion  
 D. Top-down  
 **Answer:** B — Ratio uses measurable units.  
-**Tags:** #must-know #domain5-estimation #parametric  
+**Tags:** #must-know #domain5-planning #parametric #estimation #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1162,7 +1162,7 @@ B. Ratio
 C. Apportion  
 D. Top-down  
 **Answer:** C — Apportion divides the total budget into functional categories.  
-**Tags:** #must-know #domain5-estimation #parametric  
+**Tags:** #must-know #domain5-planning #parametric #estimating #cost-estimating
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1178,7 +1178,7 @@ B. EV < PV and EV < AC
 C. EV < PV and EV > AC  
 D. EV > PV and EV < AC  
 **Answer:** C — Behind schedule (EV < PV) but under budget (EV > AC).  
-**Tags:** #must-know #domain7-earned-value #scenario  
+**Tags:** #must-know #domain7-execute-monitor-close #scenario #earned-value
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1194,7 +1194,7 @@ B. Resource leveling
 C. Resource smoothing  
 D. Fast-tracking  
 **Answer:** C — Smoothing adjusts non-critical tasks without changing the critical path.  
-**Tags:** #must-know #domain6-resource-management #definition  
+**Tags:** #must-know #domain6-time-management #definition #schedule-compression #tools-techniques
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1210,7 +1210,7 @@ B. Transfer
 C. Mitigate  
 D. Accept  
 **Answer:** D — Acceptance is chosen when mitigation is not cost-effective.  
-**Tags:** #must-know #domain5-risk-management #scenario  
+**Tags:** #must-know #domain5-planning #scenario #risk
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1226,7 +1226,7 @@ B. The task can be delayed up to 10 days without affecting the project
 C. The task must start immediately  
 D. The task is behind schedule  
 **Answer:** B — Float allows delay without affecting the finish date.  
-**Tags:** #must-know #domain6-critical-path #float  
+**Tags:** #must-know #domain6-time-management #float #critical-path #schedule-analysis
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1242,7 +1242,7 @@ B. Planning
 C. Executing  
 D. Closing  
 **Answer:** D — These are closing activities.  
-**Tags:** #must-know #domain1-project-life-cycle #closing
+**Tags:** #must-know #domain2-project-life-cycle #closing
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1258,7 +1258,7 @@ B. PMO
 C. Steering committee  
 D. Functional manager  
 **Answer:** B — PMO stores lessons learned.  
-**Tags:** #must-know #domain1-pmo #definition  
+**Tags:** #must-know #domain1-project-concepts #definition #stakeholders
 
 - [ ] I know this
 - [ ] I need to review this again
@@ -1274,7 +1274,7 @@ B. Traditional
 C. Agile  
 D. Extreme  
 **Answer:** D — Extreme is used when requirements are unclear and volatility is high.  
-**Tags:** #must-know #domain4-methods #scenario  
+**Tags:** #must-know #domain4-methods #scenario #agile
 
 - [ ] I know this
 - [ ] I need to review this again
