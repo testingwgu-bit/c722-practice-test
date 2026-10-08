@@ -575,3 +575,335 @@ EV / Budget = 1200 / 3000 = **0.40 (40% complete)**
 
 ---
 
+## Q47
+**Question:** A project sponsor insists on adding a new feature two weeks before launch. The project manager warns that adding the feature will require extending the schedule and increasing the budget. Which triple constraint is being impacted first?  
+A. Scope  
+B. Cost  
+C. Time  
+D. Quality  
+**Answer:** A — Increasing scope forces changes to cost and time.  
+**Tags:** #must-know #domain1-project-concepts #triple-constraint #scenario  
+
+---
+
+## Q48
+**Question:** A project team discovers that a vendor’s software update will arrive three weeks later than promised. The project manager adjusts the timeline and communicates the change to all stakeholders. Which change management step is being performed?  
+A. Identify change  
+B. Evaluate change  
+C. Decision  
+D. Communicate change  
+**Answer:** D — The PM is informing stakeholders of the approved change.  
+**Tags:** #must-know #domain8-change-management #scenario  
+
+---
+
+## Q49
+**Question:** A company is deciding whether to upgrade its outdated security system. If they do not upgrade, they risk failing compliance audits. Which project selection method applies?  
+A. Sacred cow  
+B. Competitive necessity  
+C. Operating necessity  
+D. Opportunity cost  
+**Answer:** C — The project is required to maintain operations and compliance.  
+**Tags:** #must-know #domain3-selection-methods #scenario  
+
+---
+
+## Q50
+**Question:** A project manager notices that team members are reporting to both their department manager and the project manager. What organizational structure is this?  
+A. Functional  
+B. Projectized  
+C. Matrix  
+D. Hybrid  
+**Answer:** C — Matrix structures have dual reporting lines.  
+**Tags:** #must-know #domain1-organizational-structures #definition 
+
+---
+
+## Q51
+**Question:** A project manager wants to ensure that customer requirements are measurable and clearly defined before work begins. Which quality process is being performed?  
+A. Quality control  
+B. Quality assurance  
+C. Quality management  
+D. Continuous improvement  
+**Answer:** C — Quality management defines requirements and measurements.  
+**Tags:** #must-know #domain7-quality-management #definition  
+
+---
+
+## Q52
+**Question:** A project team identifies 15 risks and evaluates each for probability and impact. What step of risk management is this?  
+A. Identify  
+B. Qualitative/quantitative analysis  
+C. Response planning  
+D. Monitoring  
+**Answer:** B — They are analyzing probability and impact.  
+**Tags:** #must-know #domain5-risk-management #definition  
+
+---
+
+## Q53
+**Question:** A project manager overlaps “Testing” with the final days of “Development” to shorten the schedule. What technique is being used?  
+A. Crashing  
+B. Fast-tracking  
+C. Resource leveling  
+D. De-scoping  
+**Answer:** B — Fast-tracking overlaps tasks.  
+**Tags:** #must-know #domain6-schedule-compression #scenario  
+
+---
+
+## Q54
+**Question:** A project manager adds two additional developers to shorten the critical path. What technique is being used?  
+A. Fast-tracking  
+B. Resource smoothing  
+C. Crashing  
+D. Leveling  
+**Answer:** C — Crashing adds resources to reduce duration.  
+**Tags:** #must-know #domain6-schedule-compression #scenario  
+
+---
+
+## Q55
+**Question:** A project has EV = $40,000 and AC = $50,000. What does this indicate?  
+A. The project is under budget  
+B. The project is over budget  
+C. The project is ahead of schedule  
+D. The project is behind schedule  
+**Answer:** B — EV < AC means over budget.  
+**Tags:** #must-know #domain7-earned-value #math  
+
+---
+
+## Q56
+**Question:** A project manager calculates SPI = 0.8. What does this mean?  
+A. The project is ahead of schedule  
+B. The project is behind schedule  
+C. The project is under budget  
+D. The project is over budget  
+**Answer:** B — SPI < 1 means behind schedule.  
+**Tags:** #must-know #domain7-earned-value #definition 
+
+---
+
+## Q57
+**Question:** A project team estimates a task will take 2 days (optimistic), 5 days (most likely), and 11 days (pessimistic). What is the beta estimate?  
+A. 5 days  
+B. 6 days  
+C. 7 days  
+D. 8 days  
+**Answer:** C — (2 + 4(5) + 11) / 6 = 33 / 6 = 5.5 ≈ 6 days (rounded to nearest whole number).  
+**Tags:** #must-know #domain6-time-management #beta-estimate #math  
+
+---
+
+## Q58
+**Question:** A project manager wants to reduce the chance of a risk occurring by adding additional testing. What risk response is this?  
+A. Avoid  
+B. Transfer  
+C. Mitigate  
+D. Accept  
+**Answer:** C — Mitigation reduces probability or impact.  
+**Tags:** #must-know #domain5-risk-management #scenario  
+
+---
+
+## Q59
+**Question:** A project team decides to purchase insurance to cover potential financial losses. What risk response is this?  
+A. Avoid  
+B. Transfer  
+C. Mitigate  
+D. Accept  
+**Answer:** B — Insurance transfers risk.  
+**Tags:** #must-know #domain5-risk-management #definition  
+
+---
+
+## Q60
+**Question:** A project manager receives a request to add a new report to the system. The PM evaluates the cost, schedule impact, and risk. What step of change management is this?  
+A. Identify  
+B. Evaluate  
+C. Decision  
+D. Communicate  
+**Answer:** B — The PM is evaluating the change.  
+**Tags:** #must-know #domain8-change-management #scenario  
+
+---
+
+## Q61
+**Question:** A project team is working in an iterative life cycle. Which phases may repeat?  
+A. Defining only  
+B. Planning and executing  
+C. Executing and closing  
+D. All phases  
+**Answer:** B — Planning and executing are iterative.  
+**Tags:** #must-know #domain1-project-life-cycle #definition 
+
+---
+
+## Q62
+**Question:** A project manager uses a WBS to break work into smaller components. What is the primary benefit?  
+A. Reduces cost  
+B. Improves communication  
+C. Ensures accurate scope definition  
+D. Speeds up execution  
+**Answer:** C — WBS defines and structures scope.  
+**Tags:** #must-know #domain5-planning #wbs #definition  
+
+---
+
+## Q63
+**Question:** A project manager sees that “Install Flooring” cannot begin until “Level Subfloor” is complete. What dependency is this?  
+A. Start-to-start  
+B. Finish-to-start  
+C. Finish-to-finish  
+D. Start-to-finish  
+**Answer:** B — FS is the most common dependency.  
+**Tags:** #must-know #domain6-time-management #dependencies  
+
+---
+
+## Q64
+**Question:** A project manager identifies the longest path through the schedule network. What is being determined?  
+A. Float  
+B. Slack  
+C. Critical path  
+D. Lead time  
+**Answer:** C — The longest path is the critical path.  
+**Tags:** #must-know #domain6-critical-path #definition  
+
+---
+
+## Q65
+**Question:** A project has two parallel tasks:  
+- Task A: 5 days  
+- Task B: 12 days  
+Which task determines the critical path?  
+A. Task A  
+B. Task B  
+C. Both  
+D. Neither  
+**Answer:** B — The longest task determines the path.  
+**Tags:** #must-know #domain6-critical-path #scenario
+  
+---
+
+## Q66
+**Question:** A project manager wants to ensure that the project aligns with organizational strategy. Which entity provides this support?  
+A. Sponsor  
+B. PMO  
+C. Steering committee  
+D. Functional manager  
+**Answer:** B — PMO aligns projects with strategy.  
+**Tags:** #must-know #domain1-pmo #definition
+
+---
+
+## Q67
+**Question:** A project manager uses historical data from a previous project to estimate the cost of a new one. What method is this?  
+A. Bottom-up  
+B. Ratio (parametric)  
+C. Apportion  
+D. Top-down  
+**Answer:** D — Top-down uses past project experience.  
+**Tags:** #must-know #domain5-estimation #definition  
+
+---
+
+## Q68
+**Question:** A project manager calculates cost using “$200 per square foot × total square footage.” What estimation method is this?  
+A. Bottom-up  
+B. Ratio (parametric)  
+C. Apportion  
+D. Top-down  
+**Answer:** B — Ratio uses measurable units.  
+**Tags:** #must-know #domain5-estimation #parametric  
+
+---
+
+## Q69
+**Question:** A project manager allocates 20% of the total budget to testing based on historical proportions. What method is this?  
+A. Bottom-up  
+B. Ratio  
+C. Apportion  
+D. Top-down  
+**Answer:** C — Apportion divides the total budget into functional categories.  
+**Tags:** #must-know #domain5-estimation #parametric  
+
+---
+
+## Q70
+**Question:** A project team is behind schedule but under budget. Which earned value combination reflects this?  
+A. EV > PV and EV > AC  
+B. EV < PV and EV < AC  
+C. EV < PV and EV > AC  
+D. EV > PV and EV < AC  
+**Answer:** C — Behind schedule (EV < PV) but under budget (EV > AC).  
+**Tags:** #must-know #domain7-earned-value #scenario  
+
+---
+
+## Q71
+**Question:** A project manager wants to reduce resource overload by shifting tasks to later dates without affecting the critical path. What technique is this?  
+A. Crashing  
+B. Resource leveling  
+C. Resource smoothing  
+D. Fast-tracking  
+**Answer:** C — Smoothing adjusts non-critical tasks without changing the critical path.  
+**Tags:** #must-know #domain6-resource-management #definition  
+
+---
+
+## Q72
+**Question:** A project team decides to accept a risk because the cost of mitigation is higher than the potential impact. What risk response is this?  
+A. Avoid  
+B. Transfer  
+C. Mitigate  
+D. Accept  
+**Answer:** D — Acceptance is chosen when mitigation is not cost-effective.  
+**Tags:** #must-know #domain5-risk-management #scenario  
+
+---
+
+## Q73
+**Question:** A project manager calculates that a task has 10 days of float. What does this mean?  
+A. The task is on the critical path  
+B. The task can be delayed up to 10 days without affecting the project  
+C. The task must start immediately  
+D. The task is behind schedule  
+**Answer:** B — Float allows delay without affecting the finish date.  
+**Tags:** #must-know #domain6-critical-path #float  
+
+---
+
+## Q74
+**Question:** A project team is closing out a project. They archive documents, release resources, and complete procurement closure. What phase is this?  
+A. Defining  
+B. Planning  
+C. Executing  
+D. Closing  
+**Answer:** D — These are closing activities.  
+**Tags:** #must-know #domain1-project-life-cycle #closing
+
+---
+
+## Q75
+**Question:** A project manager wants to ensure that lessons learned are applied to future projects. Which entity is responsible for maintaining this repository?  
+A. Sponsor  
+B. PMO  
+C. Steering committee  
+D. Functional manager  
+**Answer:** B — PMO stores lessons learned.  
+**Tags:** #must-know #domain1-pmo #definition  
+
+---
+
+## Q76
+**Question:** A project team is working on a complex software system with unclear requirements and high volatility. Which project management method is most appropriate?  
+A. Waterfall  
+B. Traditional  
+C. Agile  
+D. Extreme  
+**Answer:** D — Extreme is used when requirements are unclear and volatility is high.  
+**Tags:** #must-know #domain4-methods #scenario  
+
+---
