@@ -1,5 +1,144 @@
 # C722 Project Management — Complete Study System
 
+# 📊 Study Dashboard
+
+A quick‑access dashboard to navigate all study materials, track progress, and review priority content.
+
+---
+
+## 🔥 High Priority Review
+These are the most important items for the OA.
+
+- [High Priority Concepts](./concepts/concepts.md)
+- [High Priority Flashcards](./flashcards/concepts.md)
+- [Must‑Know Glossary Terms](./flashcards/glossary.md)
+- [Must‑Know Questions](./questions/all-questions.md)
+
+Search tags:
+```
+#must-know
+#high-priority
+```
+
+---
+
+## 🟡 Medium Priority Review
+Useful but not core OA content.
+
+Search tags:
+```
+#high-yield
+#medium-priority
+```
+
+---
+
+## 🟢 Low Priority Review
+Rarely tested but good to know.
+
+Search tags:
+```
+#low-priority
+#nice-to-know
+```
+
+---
+
+## 🧮 Math‑Only Practice
+Earned value, duration estimation, beta/triangular, standard deviation.
+
+Search tags:
+```
+#math
+#earned-value
+```
+
+---
+
+## 🕸 Critical Path & Gantt Practice
+Network diagrams, float, path calculations, schedule compression.
+
+Search tags:
+```
+#critical-path
+#gantt-chart
+```
+
+---
+
+## 🧠 Domain‑Specific Navigation
+Jump directly to questions or concepts by OA domain.
+
+Search tags:
+```
+#domain1-project-concepts
+#domain2-project-life-cycle
+#domain3-selection-methods
+#domain4-methods
+#domain5-planning
+#domain6-time-management
+#domain7-execute-monitor-close
+```
+
+---
+
+## 📝 Flashcards
+- [Concept Flashcards](./flashcards/concepts.md)
+- [Glossary Flashcards](./flashcards/glossary.md)
+
+Use tags:
+```
+#high-priority
+#medium-priority
+#low-priority
+```
+
+---
+
+## ❗ Flagged Questions
+Review questions you marked during study.
+
+Search:
+```
+Flag this question
+#flagged
+```
+
+---
+
+## ❌ Missed Questions
+Review questions you missed.
+
+Search:
+```
+Missed this question
+#missed
+```
+
+---
+
+## ✔️ Mastered Questions
+Search:
+```
+I know this
+```
+
+---
+
+## 🔍 All Tags Reference
+See the full tag system:
+- [Tag Definitions](./meta/tags.md)
+
+---
+
+## 🧭 Quick Navigation
+- [Concepts](./concepts/concepts.md)
+- [Flashcards](./flashcards/concepts.md)
+- [Glossary](./flashcards/glossary.md)
+- [All Questions](./questions/all-questions.md)
+```
+---
+
 A fully structured, interactive study resource for the Western Governors University C722 Project Management OA.  
 This repository includes:
 
