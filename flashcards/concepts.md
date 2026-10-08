@@ -63,99 +63,124 @@
 ## Card 16
 **Front:** What happens to cost and schedule when scope increases?  
 **Back:** Both cost and schedule must increase.
+**Tags:** #must-know
 
 ## Card 17
 **Front:** Which project life cycle phases are iterative?  
 **Back:** Planning and Executing.
+**Tags:** #medium-priority
 
 ## Card 18
 **Front:** What is the primary purpose of a WBS?  
 **Back:** To define and structure project scope.
+*Tags:* #must-know
 
 ## Card 19
 **Front:** What does CPI < 1 indicate?  
 **Back:** The project is over budget.
+**Tags:** #must-know
 
 ## Card 20
 **Front:** What does SPI < 1 indicate?  
 **Back:** The project is behind schedule.
+**Tags:** #must-know
 
 ## Card 21
 **Front:** What is the longest path through a project schedule called?  
 **Back:** The critical path.
+**Tags:** #must-know
 
 ## Card 22
 **Front:** What risk response reduces probability or impact?  
 **Back:** Mitigation.
+**Tags:** #must-know
 
 ## Card 23
 **Front:** What risk response shifts ownership of the risk?  
 **Back:** Transfer.
+**Tags:** #medium-priority
 
 ## Card 24
 **Front:** What risk response eliminates the threat entirely?  
 **Back:** Avoidance.
+**Tags:** #must-know
 
 ## Card 25
 **Front:** What risk response accepts the consequences without action?  
 **Back:** Acceptance.
+**Tags:** #medium-priority
 
 ## Card 26
 **Front:** What schedule compression technique overlaps tasks?  
 **Back:** Fast‑tracking.
+**Tags:** #must-know
 
 ## Card 27
 **Front:** What schedule compression technique adds resources?  
 **Back:** Crashing.
+**Tags:** #must-know
 
 ## Card 28
 **Front:** What organizational structure has dual reporting lines?  
 **Back:** Matrix.
+**Tags:** #must-know
 
 ## Card 29
 **Front:** What organizational structure gives the PM full authority?  
 **Back:** Projectized.
+**Tags:** #medium-priority
 
 ## Card 30
 **Front:** What organizational structure is department‑based?  
 **Back:** Functional.
+**Tags:** #medium-priority
 
 ## Card 31
 **Front:** What is the formula for Cost Variance (CV)?  
 **Back:** CV = EV – AC.
+**Tags:** #must-know
 
 ## Card 32
 **Front:** What is the formula for Schedule Variance (SV)?  
 **Back:** SV = EV – PV.
+**Tags:** #must-know
 
 ## Card 33
 **Front:** What is the formula for CPI?  
 **Back:** CPI = EV ÷ AC.
+**Tags:** #must-know
 
 ## Card 34
 **Front:** What is the formula for SPI?  
 **Back:** SPI = EV ÷ PV.
+**Tags:** #must-know
 
 ## Card 35
 **Front:** What is the formula for EAC using CPI?  
 **Back:** EAC = Budget ÷ CPI.
+**Tags:** #must-know
 
 ## Card 36
 **Front:** What is the formula for ETC?  
 **Back:** ETC = EAC – AC.
+**Tags:** #must-know
 
 ## Card 37
 **Front:** What is the formula for TCPI?  
 **Back:** (Budget – EV) ÷ (Budget – AC).
+**Tags:** #must-know
 
 ## Card 38
 **Front:** What is the triangular estimate formula?  
 **Back:** (O + M + P) ÷ 3.
+**Tags:** #must-know
 
 ## Card 39
 **Front:** What is the beta estimate formula?  
 **Back:** (O + 4M + P) ÷ 6.
+**Tags:** #must-know
 
 ## Card 40
 **Front:** What is the standard deviation formula?  
 **Back:** (P – O) ÷ 6.
+**Tags:** #must-know
