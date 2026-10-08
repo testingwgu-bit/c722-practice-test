@@ -1,112 +1,60 @@
-# Domain 1 — Project Concepts Test
-This test includes all questions tagged with **#domain1-project-concepts**.
+# Domain 1 — Project Concepts
+
+## Q15
+**Question:** A project to build a new city library is being planned using federal grant money. The library director, grant administrators, and city planners disagree on some points of the building design. Some stakeholders want to dedicate more community meeting space, while others want more shelves to increase the number of books in the library’s collection. Which triple constraint is being debated?  
+**Answer:** Scope  
+**Tags:** #must-know #domain1-project-concepts #scenario
+
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q1
-**Question:** The owners of a restaurant supply store are looking for ideas for a project to provide a new service to their customers. Which idea best aligns with the owners’ request?  
-**Tags:** #domain1-project-concepts #must-know
+## Q47
+**Question:** A project sponsor insists on adding a new feature two weeks before launch. The project manager warns that adding the feature will require extending the schedule and increasing the budget. Which triple constraint is being impacted first?  
+**Answer:** Scope  
+**Tags:** #must-know #domain1-project-concepts #triple-constraint #scenario #definition
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q2
-**Question:** Which of the following is made up of the activities, methods, tactics, etc. that will be employed to meet business goals?  
-**Tags:** #domain1-project-concepts #must-know
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q3
-**Question:** Which of the following would be established to organize the work required to coordinate several related efforts to create one or more deliverables that a company plans to complete over the new fiscal year?  
-**Tags:** #domain1-project-concepts #must-know
+## Q50
+**Question:** A project manager notices that team members are reporting to both their department manager and the project manager. What organizational structure is this?  
+**Answer:** Matrix  
+**Tags:** #must-know #domain1-project-concepts #definition
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q4
-**Question:** Which of the following is a characteristic of a project?  
-**Tags:** #domain1-project-concepts #high-yield
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q5
-**Question:** Which of the following is an example of a project?  
-**Tags:** #domain1-project-concepts #high-yield
+## Q66
+**Question:** A project manager wants to ensure that the project aligns with organizational strategy. Which entity provides this support?  
+**Answer:** PMO  
+**Tags:** #must-know #domain1-project-concepts #definition #stakeholders
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q6
-**Question:** Which of the following is a characteristic of operations?  
-**Tags:** #domain1-project-concepts #high-yield
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
 ---
 
-## Q7
-**Question:** Which of the following is a characteristic of a program?  
-**Tags:** #domain1-project-concepts #medium-priority
+## Q75
+**Question:** A project manager wants to ensure that lessons learned are applied to future projects. Which entity is responsible for maintaining this repository?  
+**Answer:** PMO  
+**Tags:** #must-know #domain1-project-concepts #definition #stakeholders
 
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
+- [ ] I know this
+- [ ] I need to review this again
+- [ ] Missed this question
+- [ ] Flag this question
 
----
-
-## Q8
-**Question:** Which of the following is a characteristic of a portfolio?  
-**Tags:** #domain1-project-concepts #medium-priority
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q9
-**Question:** Which of the following is a benefit of project management?  
-**Tags:** #domain1-project-concepts #high-yield
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
-
----
-
-## Q10
-**Question:** Which of the following is a responsibility of the project manager?  
-**Tags:** #domain1-project-concepts #must-know
-
-- [ ] I know this  
-- [ ] I need to review this again  
-- [ ] Missed this question  
-- [ ] Flag this question  
