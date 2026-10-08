@@ -11,3 +11,15 @@
 ## Q3
 **Question:** Which of the following would be established to organize the work required to coordinate several related efforts to create one or more deliverables that a company plans to complete over the new fiscal year?  
 **Tags:** #must-know #domain1-project-concepts #definition
+
+## Q4
+**Question:** What are the three major project management organizations?  
+**Tags:** #nice-to-know #domain1-project-concepts #definition
+
+## Q5
+**Question:** Which of the following is the lowest level of project management maturity for an organization?  
+**Tags:** #must-know #domain1-project-concepts #definition
+
+## Q6
+**Question:** Which of the following is a disadvantage of using a balanced matrix organizational structure?  
+**Tags:** #must-know #domain1-project-concepts #scenario
