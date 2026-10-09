@@ -7,6 +7,10 @@ let questions = [];
 let index = 0;
 let mode = "normal";
 
+/* ============================
+   VIEW SWITCHING
+   ============================ */
+
 function showTestView() {
     document.querySelector(".menu").style.display = "none";
     document.getElementById("question-container").style.display = "block";
@@ -16,6 +20,10 @@ function showDashboard() {
     document.querySelector(".menu").style.display = "block";
     document.getElementById("question-container").style.display = "none";
 }
+
+/* ============================
+   STATS SYSTEM
+   ============================ */
 
 let stats = {
     answered: 0,
@@ -36,8 +44,7 @@ function initStats() {
         if (stats.lastStudyDate) {
             const prev = new Date(stats.lastStudyDate);
             const diff = (new Date(today) - prev) / (1000*60*60*24);
-            if (diff === 1) stats.streak += 1;
-            else stats.streak = 1;
+            stats.streak = diff === 1 ? stats.streak + 1 : 1;
         } else {
             stats.streak = 1;
         }
@@ -64,11 +71,15 @@ function renderStats() {
     document.getElementById("progress-fill").style.width = pct + "%";
 }
 
+/* ============================
+   LOADERS
+   ============================ */
+
 function loadTest(file) {
     mode = "normal";
     index = 0;
-    
-showTestView();
+
+    showTestView();
 
     const path = file.includes("domain") ? DOMAIN_PATH + file : QUESTION_PATH + file;
 
@@ -94,6 +105,10 @@ function loadFlashcards(file) {
         });
 }
 
+/* ============================
+   PARSERS
+   ============================ */
+
 function parseQuestions(md) {
     return md.split("\n---").map(block => block.trim()).filter(b => b.includes("Question"));
 }
@@ -102,54 +117,78 @@ function parseFlashcards(md) {
     return md.split("\n\n").map(card => card.trim()).filter(c => c.length > 0);
 }
 
+/* ============================
+   QUESTION VIEW
+   ============================ */
+
 function showQuestion() {
     if (index >= questions.length) {
-        document.getElementById("question-container").innerHTML = `
-    <div class="question">
-        <div class="question-text">
-            ${q.split("**Answer:**")[0].trim()}
-        </div>
+        document.getElementById("question-container").innerHTML = "<h2>Test Complete!</h2>";
+        return;
+    }
 
-        <button onclick="toggleAnswer()">Show Answer</button>
+    const q = questions[index];
 
-        <div class="answer">
-            ${q.split("**Answer:**")[1].trim()}
-        </div>
+    document.getElementById("question-container").innerHTML = `
+        <div class="question">
+            <div class="question-text">
+                ${q.split("**Answer:**")[0].trim()}
+            </div>
 
-        <div class="controls">
-            <button onclick="mark('know')">I know this</button>
-            <button onclick="mark('review')">Review again</button>
-            <button onclick="mark('missed')">Missed this question</button>
-            <button onclick="mark('flag')">Flag this question</button>
-        </div>
+            <button onclick="toggleAnswer()">Show Answer</button>
 
-        <div style="margin-top:20px;">
-            <button onclick="showDashboard()">Back to Dashboard</button>
+            <div class="answer">
+                ${q.split("**Answer:**")[1].trim()}
+            </div>
+
+            <div class="controls">
+                <button onclick="mark('know')">I know this</button>
+                <button onclick="mark('review')">Review again</button>
+                <button onclick="mark('missed')">Missed this question</button>
+                <button onclick="mark('flag')">Flag this question</button>
+            </div>
+
+            <div style="margin-top:20px;">
+                <button onclick="showDashboard()">Back to Dashboard</button>
+            </div>
         </div>
-    </div>
-`;
+    `;
 }
+
+/* ============================
+   FLASHCARD VIEW
+   ============================ */
 
 function showFlashcard() {
     if (index >= questions.length) {
-        document.getElementById("question-container").innerHTML = `
-    <div class="question">
-        <div class="question-text">
-            <strong>${card.split(":")[0].trim()}</strong>
-        </div>
+        document.getElementById("question-container").innerHTML = "<h2>Flashcards Complete!</h2>";
+        return;
+    }
 
-        <button onclick="toggleAnswer()">Show Answer</button>
+    const card = questions[index];
 
-        <div class="answer">
-            ${card.split(":")[1].trim()}
-        </div>
+    document.getElementById("question-container").innerHTML = `
+        <div class="question">
+            <div class="question-text">
+                <strong>${card.split(":")[0].trim()}</strong>
+            </div>
 
-        <div style="margin-top:20px;">
-            <button onclick="showDashboard()">Back to Dashboard</button>
+            <button onclick="toggleAnswer()">Show Answer</button>
+
+            <div class="answer">
+                ${card.split(":")[1].trim()}
+            </div>
+
+            <div style="margin-top:20px;">
+                <button onclick="showDashboard()">Back to Dashboard</button>
+            </div>
         </div>
-    </div>
-`;
+    `;
 }
+
+/* ============================
+   INTERACTION
+   ============================ */
 
 function toggleAnswer() {
     const ans = document.querySelector(".answer");
@@ -166,7 +205,7 @@ function mark(type) {
         stats.missed += 1;
         missedList.push(questions[index]);
         localStorage.setItem("missed", JSON.stringify(missedList));
-        questions.splice(index + 3, 0, questions[index]); // repeat later
+        questions.splice(index + 3, 0, questions[index]);
     } else if (type === "know") {
         stats.mastered += 1;
     }
@@ -175,9 +214,12 @@ function mark(type) {
     renderStats();
 
     index++;
-    if (mode === "flashcards") showFlashcard();
-    else showQuestion();
+    mode === "flashcards" ? showFlashcard() : showQuestion();
 }
+
+/* ============================
+   MODES
+   ============================ */
 
 function startMissedMode() {
     mode = "missed";
@@ -208,6 +250,10 @@ function shuffle(arr) {
     return arr.sort(() => Math.random() - 0.5);
 }
 
+/* ============================
+   DARK MODE
+   ============================ */
+
 function toggleDarkMode() {
     document.body.classList.toggle("dark");
     localStorage.setItem("darkMode", document.body.classList.contains("dark") ? "1" : "0");
@@ -217,6 +263,10 @@ function initDarkMode() {
     const dm = localStorage.getItem("darkMode");
     if (dm === "1") document.body.classList.add("dark");
 }
+
+/* ============================
+   INIT
+   ============================ */
 
 window.onload = () => {
     initDarkMode();
