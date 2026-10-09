@@ -7,6 +7,16 @@ let questions = [];
 let index = 0;
 let mode = "normal";
 
+function showTestView() {
+    document.querySelector(".menu").style.display = "none";
+    document.getElementById("question-container").style.display = "block";
+}
+
+function showDashboard() {
+    document.querySelector(".menu").style.display = "block";
+    document.getElementById("question-container").style.display = "none";
+}
+
 let stats = {
     answered: 0,
     missed: 0,
@@ -57,6 +67,8 @@ function renderStats() {
 function loadTest(file) {
     mode = "normal";
     index = 0;
+    
+showTestView();
 
     const path = file.includes("domain") ? DOMAIN_PATH + file : QUESTION_PATH + file;
 
@@ -71,6 +83,8 @@ function loadTest(file) {
 function loadFlashcards(file) {
     mode = "flashcards";
     index = 0;
+
+    showTestView();
 
     fetch(FLASHCARD_PATH + file)
         .then(res => res.text())
