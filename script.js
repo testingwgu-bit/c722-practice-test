@@ -110,11 +110,27 @@ function loadFlashcards(file) {
    ============================ */
 
 function parseQuestions(md) {
-    return md.split("\n---").map(block => block.trim()).filter(b => b.includes("Question"));
+    return md
+        .split("\n---")
+        .map(block => block.trim())
+        .filter(b => b.length > 0)
+        .map(b => {
+            if (b.includes("**Answer:**")) {
+                return b;
+            }
+            if (b.includes("Correct Answer:")) {
+                const parts = b.split("Correct Answer:");
+                return parts[0] + "**Answer:**" + parts[1];
+            }
+            return b;
+        });
 }
 
 function parseFlashcards(md) {
-    return md.split("\n\n").map(card => card.trim()).filter(c => c.length > 0);
+    return md
+        .split("\n")
+        .map(line => line.trim())
+        .filter(line => line.includes(":"));
 }
 
 /* ============================
@@ -129,16 +145,19 @@ function showQuestion() {
 
     const q = questions[index];
 
+    const questionText = q.split("**Answer:**")[0].trim();
+    const answerText = q.split("**Answer:**")[1].trim().replace(/\n/g, "<br>");
+
     document.getElementById("question-container").innerHTML = `
         <div class="question">
             <div class="question-text">
-                ${q.split("**Answer:**")[0].trim()}
+                ${questionText}
             </div>
 
             <button onclick="toggleAnswer()">Show Answer</button>
 
             <div class="answer">
-                ${q.split("**Answer:**")[1].trim()}
+                ${answerText}
             </div>
 
             <div class="controls">
@@ -166,17 +185,19 @@ function showFlashcard() {
     }
 
     const card = questions[index];
+    const term = card.split(":")[0].trim();
+    const definition = card.split(":")[1].trim();
 
     document.getElementById("question-container").innerHTML = `
         <div class="question">
             <div class="question-text">
-                <strong>${card.split(":")[0].trim()}</strong>
+                <strong>${term}</strong>
             </div>
 
             <button onclick="toggleAnswer()">Show Answer</button>
 
             <div class="answer">
-                ${card.split(":")[1].trim()}
+                ${definition}
             </div>
 
             <div style="margin-top:20px;">
@@ -231,6 +252,10 @@ function startMissedMode() {
 }
 
 function continueSession() {
+    if (questions.length === 0) {
+        alert("No active session. Start a test first.");
+        return;
+    }
     showQuestion();
 }
 
