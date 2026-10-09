@@ -122,6 +122,10 @@ function showQuestion() {
                 <button onclick="mark('missed')">Missed this question</button>
                 <button onclick="mark('flag')">Flag this question</button>
             </div>
+
+            <div style="margin-top:20px;">
+                <button onclick="showDashboard()">Back to Dashboard</button>
+            </div>
         </div>
     `;
 }
@@ -135,12 +139,16 @@ function showFlashcard() {
     const card = questions[index];
 
     document.getElementById("question-container").innerHTML = `
-        <div class="question">
-            <strong>${card.split(":")[0]}</strong>
-            <button onclick="toggleAnswer()">Show Answer</button>
-            <div class="answer">${card.split(":")[1]}</div>
+    <div class="question">
+        <strong>${card.split(":")[0]}</strong>
+        <button onclick="toggleAnswer()">Show Answer</button>
+        <div class="answer">${card.split(":")[1]}</div>
+
+        <div style="margin-top:20px;">
+            <button onclick="showDashboard()">Back to Dashboard</button>
         </div>
-    `;
+    </div>
+`;
 }
 
 function toggleAnswer() {
