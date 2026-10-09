@@ -104,45 +104,45 @@ function parseFlashcards(md) {
 
 function showQuestion() {
     if (index >= questions.length) {
-        document.getElementById("question-container").innerHTML = "<h2>Test Complete!</h2>";
-        return;
-    }
-
-    const q = questions[index];
-
-    document.getElementById("question-container").innerHTML = `
-        <div class="question">
-            ${q.split("**Answer:**")[0]}
-            <button onclick="toggleAnswer()">Show Answer</button>
-            <div class="answer">${q.split("**Answer:**")[1]}</div>
-
-            <div class="controls">
-                <button onclick="mark('know')">I know this</button>
-                <button onclick="mark('review')">Review again</button>
-                <button onclick="mark('missed')">Missed this question</button>
-                <button onclick="mark('flag')">Flag this question</button>
-            </div>
-
-            <div style="margin-top:20px;">
-                <button onclick="showDashboard()">Back to Dashboard</button>
-            </div>
+        document.getElementById("question-container").innerHTML = `
+    <div class="question">
+        <div class="question-text">
+            ${q.split("**Answer:**")[0].trim()}
         </div>
-    `;
+
+        <button onclick="toggleAnswer()">Show Answer</button>
+
+        <div class="answer">
+            ${q.split("**Answer:**")[1].trim()}
+        </div>
+
+        <div class="controls">
+            <button onclick="mark('know')">I know this</button>
+            <button onclick="mark('review')">Review again</button>
+            <button onclick="mark('missed')">Missed this question</button>
+            <button onclick="mark('flag')">Flag this question</button>
+        </div>
+
+        <div style="margin-top:20px;">
+            <button onclick="showDashboard()">Back to Dashboard</button>
+        </div>
+    </div>
+`;
 }
 
 function showFlashcard() {
     if (index >= questions.length) {
-        document.getElementById("question-container").innerHTML = "<h2>Flashcards Complete!</h2>";
-        return;
-    }
-
-    const card = questions[index];
-
-    document.getElementById("question-container").innerHTML = `
+        document.getElementById("question-container").innerHTML = `
     <div class="question">
-        <strong>${card.split(":")[0]}</strong>
+        <div class="question-text">
+            <strong>${card.split(":")[0].trim()}</strong>
+        </div>
+
         <button onclick="toggleAnswer()">Show Answer</button>
-        <div class="answer">${card.split(":")[1]}</div>
+
+        <div class="answer">
+            ${card.split(":")[1].trim()}
+        </div>
 
         <div style="margin-top:20px;">
             <button onclick="showDashboard()">Back to Dashboard</button>
