@@ -1,6 +1,7 @@
-const QUESTION_PATH = "questions/";
-const DOMAIN_PATH = "questions/domain-tests/";
-const FLASHCARD_PATH = "flashcards/";
+const BASE_URL = "https://testingwgu-bit.github.io/c722-practice-test/";
+const QUESTION_PATH = BASE_URL + "questions/";
+const DOMAIN_PATH = BASE_URL + "questions/domain-tests/";
+const FLASHCARD_PATH = BASE_URL + "flashcards/";
 
 let questions = [];
 let index = 0;
