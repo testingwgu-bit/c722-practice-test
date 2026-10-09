@@ -272,4 +272,3 @@ window.onload = () => {
     initDarkMode();
     initStats();
 };
-
