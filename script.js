@@ -6,6 +6,53 @@ let questions = [];
 let index = 0;
 let mode = "normal";
 
+let stats = {
+    answered: 0,
+    missed: 0,
+    mastered: 0,
+    todayCount: 0,
+    dailyGoal: 20,
+    streak: 0,
+    lastStudyDate: null
+};
+
+function initStats() {
+    const saved = JSON.parse(localStorage.getItem("stats") || "null");
+    if (saved) stats = saved;
+
+    const today = new Date().toISOString().slice(0,10);
+    if (stats.lastStudyDate !== today) {
+        if (stats.lastStudyDate) {
+            const prev = new Date(stats.lastStudyDate);
+            const diff = (new Date(today) - prev) / (1000*60*60*24);
+            if (diff === 1) stats.streak += 1;
+            else stats.streak = 1;
+        } else {
+            stats.streak = 1;
+        }
+        stats.todayCount = 0;
+        stats.lastStudyDate = today;
+        saveStats();
+    }
+    renderStats();
+}
+
+function saveStats() {
+    localStorage.setItem("stats", JSON.stringify(stats));
+}
+
+function renderStats() {
+    document.getElementById("stat-answered").textContent = stats.answered;
+    document.getElementById("stat-missed").textContent = stats.missed;
+    document.getElementById("stat-mastered").textContent = stats.mastered;
+    document.getElementById("stat-streak").textContent = stats.streak;
+    document.getElementById("stat-today").textContent = stats.todayCount;
+    document.querySelectorAll("#stat-goal").forEach(el => el.textContent = stats.dailyGoal);
+
+    const pct = Math.min(100, (stats.todayCount / stats.dailyGoal) * 100);
+    document.getElementById("progress-fill").style.width = pct + "%";
+}
+
 function loadTest(file) {
     mode = "normal";
     index = 0;
@@ -82,20 +129,31 @@ function showFlashcard() {
 }
 
 function toggleAnswer() {
-    document.querySelector(".answer").style.display = "block";
+    const ans = document.querySelector(".answer");
+    if (ans) ans.style.display = "block";
 }
 
 function mark(type) {
+    stats.answered += 1;
+    stats.todayCount += 1;
+
     let missedList = JSON.parse(localStorage.getItem("missed") || "[]");
 
     if (type === "missed") {
+        stats.missed += 1;
         missedList.push(questions[index]);
         localStorage.setItem("missed", JSON.stringify(missedList));
         questions.splice(index + 3, 0, questions[index]); // repeat later
+    } else if (type === "know") {
+        stats.mastered += 1;
     }
 
+    saveStats();
+    renderStats();
+
     index++;
-    showQuestion();
+    if (mode === "flashcards") showFlashcard();
+    else showQuestion();
 }
 
 function startMissedMode() {
@@ -108,8 +166,6 @@ function startMissedMode() {
 }
 
 function continueSession() {
-    let savedIndex = localStorage.getItem("index");
-    if (savedIndex) index = parseInt(savedIndex);
     showQuestion();
 }
 
@@ -128,3 +184,19 @@ function startExam() {
 function shuffle(arr) {
     return arr.sort(() => Math.random() - 0.5);
 }
+
+function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+    localStorage.setItem("darkMode", document.body.classList.contains("dark") ? "1" : "0");
+}
+
+function initDarkMode() {
+    const dm = localStorage.getItem("darkMode");
+    if (dm === "1") document.body.classList.add("dark");
+}
+
+window.onload = () => {
+    initDarkMode();
+    initStats();
+};
+
