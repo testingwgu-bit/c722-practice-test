@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C722 Study Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+    <h1>C722 Project Management — Study Dashboard</h1>
+
+    <div class="menu">
+
+        <h2>Core Tests</h2>
+        <button onclick="loadTest('all-questions.md')">Start Studying (All Questions)</button>
+        <button onclick="loadTest('must-know.md')">Must‑Know Test</button>
+        <button onclick="loadTest('high-priority-test.md')">High‑Priority Test</button>
+
+        <h2>Domain Tests</h2>
+        <button onclick="loadTest('domain-tests/domain1.md')">Domain 1 — Project Concepts</button>
+        <button onclick="loadTest('domain-tests/domain2.md')">Domain 2 — Project Life Cycle</button>
+        <button onclick="loadTest('domain-tests/domain3.md')">Domain 3 — Selection Methods</button>
+        <button onclick="loadTest('domain-tests/domain4.md')">Domain 4 — Methods</button>
+        <button onclick="loadTest('domain-tests/domain5.md')">Domain 5 — Planning</button>
+        <button onclick="loadTest('domain-tests/domain6.md')">Domain 6 — Time Management</button>
+        <button onclick="loadTest('domain-tests/domain7.md')">Domain 7 — Execute / Monitor / Close</button>
+
+        <h2>Flashcards</h2>
+        <button onclick="loadFlashcards('concepts.md')">Concepts Flashcards</button>
+        <button onclick="loadFlashcards('glossary.md')">Glossary Flashcards</button>
+
+        <h2>Smart Modes</h2>
+        <button onclick="startMissedMode()">Missed Questions Only</button>
+        <button onclick="continueSession()">Continue Where You Left Off</button>
+        <button onclick="startExam()">Final Exam Simulation</button>
+    </div>
+
+    <div id="question-container"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
