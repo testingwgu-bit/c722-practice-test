@@ -110,20 +110,28 @@ function loadFlashcards(file) {
    ============================ */
 
 function parseQuestions(md) {
-    const blocks = md.split("\nQ").map(b => b.trim()).filter(b => b.length > 0);
+    const blocks = md.split("\n---").map(b => b.trim()).filter(b => b.length > 0);
 
     return blocks.map(block => {
         const lines = block.split("\n").map(l => l.trim());
 
-        const questionLine = lines.find(l => l.startsWith("Question:"));
-        const answerLine = lines.find(l => l.startsWith("Answer:"));
+        const questionLine = lines.find(l => l.startsWith("**Question:**"));
+        const answerLine = lines.find(l => l.startsWith("**Answer:**"));
 
-        const answerText = answerLine ? answerLine.replace("Answer:", "").trim() : "";
+        const questionText = questionLine
+            ? questionLine.replace("**Question:**", "").trim()
+            : "";
 
-        const choices = lines.filter(l => /^[A-D]\./.test(l)).join("\n");
+        const answerText = answerLine
+            ? answerLine.replace("**Answer:**", "").trim()
+            : "";
+
+        const choices = lines
+            .filter(l => /^[A-D]\./.test(l))
+            .join("\n");
 
         return {
-            question: questionLine ? questionLine.replace("Question:", "").trim() : "",
+            question: questionText,
             choices: choices,
             answer: answerText
         };
@@ -131,17 +139,17 @@ function parseQuestions(md) {
 }
 
 function parseFlashcards(md) {
-    const blocks = md.split("\nCard").map(b => b.trim()).filter(b => b.length > 0);
+    const blocks = md.split("\n##").map(b => b.trim()).filter(b => b.length > 0);
 
     return blocks.map(block => {
         const lines = block.split("\n").map(l => l.trim());
 
-        const front = lines.find(l => l.startsWith("Front:"));
-        const back = lines.find(l => l.startsWith("Back:"));
+        const front = lines.find(l => l.startsWith("**Front:**"));
+        const back = lines.find(l => l.startsWith("**Back:**"));
 
         return {
-            front: front ? front.replace("Front:", "").trim() : "",
-            back: back ? back.replace("Back:", "").trim() : ""
+            front: front ? front.replace("**Front:**", "").trim() : "",
+            back: back ? back.replace("**Back:**", "").trim() : ""
         };
     });
 }
