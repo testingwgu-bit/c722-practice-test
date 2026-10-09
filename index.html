@@ -8,10 +8,31 @@
 <body>
 
 <div id="app">
-    <h1>C722 Project Management — Study Dashboard</h1>
+    <header>
+        <h1>C722 Project Management — Study Dashboard</h1>
+        <div class="header-controls">
+            <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        </div>
+    </header>
+
+    <section id="stats">
+        <h2>Stats</h2>
+        <div class="stats-row">
+            <div><strong>Questions Answered:</strong> <span id="stat-answered">0</span></div>
+            <div><strong>Missed:</strong> <span id="stat-missed">0</span></div>
+            <div><strong>Mastered:</strong> <span id="stat-mastered">0</span></div>
+        </div>
+        <div class="stats-row">
+            <div><strong>Study Streak (days):</strong> <span id="stat-streak">0</span></div>
+            <div><strong>Daily Goal:</strong> <span id="stat-goal">20</span> questions</div>
+            <div><strong>Today:</strong> <span id="stat-today">0</span> / <span id="stat-goal">20</span></div>
+        </div>
+        <div class="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </section>
 
     <div class="menu">
-
         <h2>Core Tests</h2>
         <button onclick="loadTest('all-questions.md')">Start Studying (All Questions)</button>
         <button onclick="loadTest('must-know.md')">Must‑Know Test</button>
@@ -42,3 +63,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
