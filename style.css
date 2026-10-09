@@ -1,17 +1,40 @@
+/* ============================
+   GLOBAL THEME VARIABLES
+   ============================ */
+
 :root {
     --bg: #f7f7f7;
     --card-bg: #ffffff;
     --text: #222;
+
+    /* Neon Purple Theme */
+    --neon-purple: #c400ff;
+    --neon-purple-soft: #f3d1ff;
+
+    /* Button Colors */
+    --btn-bg: #5a00b8;
+    --btn-hover: #7a00f0;
+    --btn-text: #ffffff;
+
+    /* Old accent (still used for stats bar) */
     --accent: #4caf50;
     --accent-soft: #e8f5e9;
 }
+
+/* ============================
+   DARK MODE
+   ============================ */
 
 body.dark {
     --bg: #121212;
     --card-bg: #1e1e1e;
     --text: #f5f5f5;
-    --accent-soft: #1b3b24;
+    --neon-purple-soft: #2a0040;
 }
+
+/* ============================
+   BASE PAGE STYLING
+   ============================ */
 
 body {
     font-family: Arial, sans-serif;
@@ -27,6 +50,10 @@ body {
     margin: auto;
 }
 
+/* ============================
+   HEADER
+   ============================ */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -38,6 +65,10 @@ header {
     cursor: pointer;
 }
 
+/* ============================
+   DASHBOARD BUTTONS
+   ============================ */
+
 .menu button {
     display: block;
     width: 100%;
@@ -45,34 +76,75 @@ header {
     margin: 6px 0;
     font-size: 16px;
     cursor: pointer;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    border-radius: 6px;
+    transition: background 0.2s ease, transform 0.1s ease;
 }
 
 .menu button:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background: var(--btn-hover);
+    transform: translateY(-2px);
 }
+
+/* ============================
+   QUESTION CARD
+   ============================ */
 
 .question {
     background: var(--card-bg);
-    padding: 20px;
+    padding: 25px;
     margin-top: 20px;
-    border-radius: 8px;
-    animation: fadeIn 0.2s ease;
+    border-radius: 10px;
+    border: 2px solid var(--neon-purple);
+    color: var(--neon-purple);
+    font-size: 18px;
+    line-height: 1.6;
+    animation: fadeIn 0.25s ease;
 }
+
+/* ============================
+   ANSWER BLOCK
+   ============================ */
 
 .answer {
     display: none;
-    margin-top: 10px;
-    padding: 10px;
-    background: var(--accent-soft);
-    border-left: 4px solid var(--accent);
+    margin-top: 15px;
+    padding: 15px;
+    background: var(--neon-purple-soft);
+    border-left: 5px solid var(--neon-purple);
+    color: #4a0066;
+    font-size: 17px;
+    border-radius: 6px;
 }
 
-.controls button {
-    margin-right: 10px;
-    margin-top: 10px;
+/* ============================
+   QUESTION BUTTONS
+   ============================ */
+
+.controls button,
+#question-container button {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 6px 0;
+    transition: background 0.2s ease, transform 0.1s ease;
 }
+
+.controls button:hover,
+#question-container button:hover {
+    background: var(--btn-hover);
+    transform: translateY(-2px);
+}
+
+/* ============================
+   STATS DASHBOARD
+   ============================ */
 
 #stats {
     background: var(--card-bg);
@@ -87,6 +159,10 @@ header {
     flex-wrap: wrap;
     margin-bottom: 8px;
 }
+
+/* ============================
+   PROGRESS BAR
+   ============================ */
 
 .progress-bar {
     width: 100%;
@@ -103,65 +179,20 @@ header {
     transition: width 0.2s ease;
 }
 
+/* ============================
+   ANIMATIONS
+   ============================ */
+
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
+    from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* ============================
+   HIDE QUESTION VIEW BY DEFAULT
+   ============================ */
 
 #question-container {
     display: none;
 }
 
-/* Neon Purple Theme */
-:root {
-    --neon-purple: #c400ff;
-    --neon-purple-soft: #f3d1ff;
-    --btn-bg: #5a00b8;
-    --btn-hover: #7a00f0;
-    --btn-text: #ffffff;
-}
-
-/* Question Card */
-.question {
-    background: var(--card-bg);
-    padding: 25px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 2px solid var(--neon-purple);
-    color: var(--neon-purple);
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* Answer Block */
-.answer {
-    display: none;
-    margin-top: 15px;
-    padding: 15px;
-    background: var(--neon-purple-soft);
-    border-left: 5px solid var(--neon-purple);
-    color: #4a0066;
-    font-size: 17px;
-}
-
-/* Buttons */
-.controls button,
-.menu button,
-#question-container button {
-    background: var(--btn-bg);
-    color: var(--btn-text);
-    border: none;
-    padding: 12px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 6px 0;
-    transition: background 0.2s ease, transform 0.1s ease;
-}
-
-.controls button:hover,
-.menu button:hover,
-#question-container button:hover {
-    background: var(--btn-hover);
-    transform: translateY(-2px);
-}
