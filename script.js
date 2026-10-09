@@ -110,27 +110,40 @@ function loadFlashcards(file) {
    ============================ */
 
 function parseQuestions(md) {
-    return md
-        .split("\n---")
-        .map(block => block.trim())
-        .filter(b => b.length > 0)
-        .map(b => {
-            if (b.includes("**Answer:**")) {
-                return b;
-            }
-            if (b.includes("Correct Answer:")) {
-                const parts = b.split("Correct Answer:");
-                return parts[0] + "**Answer:**" + parts[1];
-            }
-            return b;
-        });
+    const blocks = md.split("\nQ").map(b => b.trim()).filter(b => b.length > 0);
+
+    return blocks.map(block => {
+        const lines = block.split("\n").map(l => l.trim());
+
+        const questionLine = lines.find(l => l.startsWith("Question:"));
+        const answerLine = lines.find(l => l.startsWith("Answer:"));
+
+        const answerText = answerLine ? answerLine.replace("Answer:", "").trim() : "";
+
+        const choices = lines.filter(l => /^[A-D]\./.test(l)).join("\n");
+
+        return {
+            question: questionLine ? questionLine.replace("Question:", "").trim() : "",
+            choices: choices,
+            answer: answerText
+        };
+    });
 }
 
 function parseFlashcards(md) {
-    return md
-        .split("\n")
-        .map(line => line.trim())
-        .filter(line => line.includes(":"));
+    const blocks = md.split("\nCard").map(b => b.trim()).filter(b => b.length > 0);
+
+    return blocks.map(block => {
+        const lines = block.split("\n").map(l => l.trim());
+
+        const front = lines.find(l => l.startsWith("Front:"));
+        const back = lines.find(l => l.startsWith("Back:"));
+
+        return {
+            front: front ? front.replace("Front:", "").trim() : "",
+            back: back ? back.replace("Back:", "").trim() : ""
+        };
+    });
 }
 
 /* ============================
@@ -145,19 +158,20 @@ function showQuestion() {
 
     const q = questions[index];
 
-    const questionText = q.split("**Answer:**")[0].trim();
-    const answerText = q.split("**Answer:**")[1].trim().replace(/\n/g, "<br>");
-
     document.getElementById("question-container").innerHTML = `
         <div class="question">
             <div class="question-text">
-                ${questionText}
+                ${q.question}
+            </div>
+
+            <div class="choices">
+                ${q.choices.replace(/\n/g, "<br>")}
             </div>
 
             <button onclick="toggleAnswer()">Show Answer</button>
 
             <div class="answer">
-                ${answerText}
+                ${q.answer}
             </div>
 
             <div class="controls">
@@ -185,19 +199,17 @@ function showFlashcard() {
     }
 
     const card = questions[index];
-    const term = card.split(":")[0].trim();
-    const definition = card.split(":")[1].trim();
 
     document.getElementById("question-container").innerHTML = `
         <div class="question">
             <div class="question-text">
-                <strong>${term}</strong>
+                <strong>${card.front}</strong>
             </div>
 
             <button onclick="toggleAnswer()">Show Answer</button>
 
             <div class="answer">
-                ${definition}
+                ${card.back}
             </div>
 
             <div style="margin-top:20px;">
